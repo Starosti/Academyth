@@ -1,5 +1,5 @@
 # Takım İsmi
-Grup 158
+***Grup 158***
 
 # Takım Rolleri
 
@@ -12,7 +12,7 @@ Grup 158
 
 
 # Ürün İsmi
-Academyth
+***Academyth***
 
 # Ürün Açıklaması
 Bu uygulama, kullanıcıların kendi çalışma materyallerini yükleyerek (PDF gibi), bu içeriklere dayalı interaktif bir oyun deneyimi yaşamalarını sağlayan bir eğitim teknolojisi ürünüdür. Temel amaç, kullanıcıların öğrenme süreçlerini pekiştirmek için oyunlaştırma öğelerinden faydalanmaktır.
@@ -54,4 +54,100 @@ Temel Özellikler:
 - Klasik test çözümlerinden sıkılmış, aktif öğrenme yöntemlerine açık bireyler.
 
 # Product Backlog
-TODO
+https://github.com/users/Starosti/projects/1/views/1
+
+
+
+
+<details>
+  <summary><h1>Sprint 1</h1></summary>
+
+  <!-- Küçük açılır başlıklar -->
+
+  <details>
+    <summary><h3>App Screenshots</h3></summary>
+
+
+  </details>
+
+
+
+
+
+  <details>
+    <summary><h3>App Map</h3></summary>
+     
+    
+
+  </details>
+
+
+
+  
+
+  <details>
+    <summary><h3>Project Management</h3></summary>
+
+
+
+  </details>
+
+
+
+
+
+
+  <details>
+    <summary><h3>Burndown Chart</h3></summary>
+
+
+  </details>
+
+
+
+
+
+
+
+  
+### Tarih Aralığı
+***20 Haziran*** - ***6 Temmuz***
+
+### Sprint Notları
+- UI tasarımlarında ------ kullanılmasına karar verildi .
+- Proje yönetim aracı olarak ***Trello*** kullanılmasına karar verildi .
+- Daily scrum toplantılarının ***Google Meet*** üzerinden yapılmasına karar verildi .
+- Giriş sistemi için ---- kullanılmasına karar verildi .
+- Uygulamanın asıl temasının ----- olmasına kara verildi .
+- Uygulamanın dilinin ------- yapılmasına karar verildi .
+
+### Sprint İçinde Tamamlanması Beklenen Puan
+- ***300*** Puan
+
+### Puan Tamamlama Mantığı
+- Toplamda ***1200*** puanlık bir hedeef belirlendi . Sprint-1'de ***300*** pıuanlık bir hedef belirlenmiş ve tamamlanmıştır . Sprint-2 ve Sprint-3'te projenin -(apı kod entegrasyon vs vs )-------- kısımlarına yoğunlaşılacağı için ***450*** hedef puanı olmasına karar verildi .  
+
+### Sprint Gözden Geçirilmesi
+- Ürün isminin ***Academyth*** olmasına karar verildi .
+- Logoya henüz karar verilmeidi .
+- 
+-
+-
+-
+### Sprint Gözden Geçirme Katılımcıları
+- Çağan Atan
+- Ömer Faruk Karakurt
+- Aydanur Tokmak
+- Hümeyra Öztürk
+
+### Sprint Retrospektifi
+-
+-
+-
+-
+
+
+</details>
+
+
+</details>
