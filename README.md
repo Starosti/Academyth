@@ -59,8 +59,7 @@ Temel Özellikler:
 - Klasik test çözümlerinden sıkılmış, aktif öğrenme yöntemlerine açık bireyler.
 
 # Product Backlog
-https://github.com/users/Starosti/projects/1/views/1
-
+https://trello.com/b/esRn5hb3/sprint-1
 
 
 
