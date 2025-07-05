@@ -11,6 +11,11 @@
 |  Hümeyra Özturk      | Developer     |
 
 
+# Ürün Logosu
+
+![Academyth Logo](https://github.com/user-attachments/assets/3b98eee7-7001-4d8e-ac23-56b974da4ad4)
+
+
 # Ürün İsmi
 ***Academyth***
 
