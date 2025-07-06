@@ -28,10 +28,6 @@ Temel Özellikler:
 - **Amaç Odaklı Oyun Kurgusu**: Oyunun nihai hedefi, belirli bir can puanına sahip olan ejderhayı sorular aracılığıyla "yenmektir". Tüm sorular başarıyla tamamlandığında, hem konular tekrar edilmiş olur hem de kullanıcıya görsel ve sayısal performans geribildirimi sunulur.
 
 
-**İş Modeli Kanvası (Business Model Canvas):**
-Projenin temel iş modelini gösteren Kanvas görseli:
-![Academyth İş Modeli Kanvası](Academyth.jpg)
-
 
 # Ürün Özellikleri
 **Çalışma Materyali Yükleme**
