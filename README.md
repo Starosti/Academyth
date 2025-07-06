@@ -27,6 +27,12 @@ Temel Özellikler:
 - **Zorluk Seviyesi ve Performansa Dayalı Geribildirim**: Sorular üç farklı zorluk kategorisine ayrılmıştır: Kolay, Orta ve Zor. Kullanıcının seçtiği seviyeye göre sorudan elde edilen puan ve verilen hasar değişkenlik gösterir. Bu yapı, öğrencinin hem kendi seviyesini belirlemesine hem de konuları farklı derinliklerde çalışmasına olanak tanır.
 - **Amaç Odaklı Oyun Kurgusu**: Oyunun nihai hedefi, belirli bir can puanına sahip olan ejderhayı sorular aracılığıyla "yenmektir". Tüm sorular başarıyla tamamlandığında, hem konular tekrar edilmiş olur hem de kullanıcıya görsel ve sayısal performans geribildirimi sunulur.
 
+
+**İş Modeli Kanvası (Business Model Canvas):**
+Projenin temel iş modelini gösteren Kanvas görseli:
+![Academyth İş Modeli Kanvası](Academyth.jpg)
+
+
 # Ürün Özellikleri
 **Çalışma Materyali Yükleme**
 - Kullanıcılar PDF, Word (.doc/.docx) ve benzeri dosya formatlarında kişisel çalışma materyallerini sisteme yükleyebilir.
@@ -68,24 +74,6 @@ https://trello.com/b/esRn5hb3/sprint-1
 
   <!-- Küçük açılır başlıklar -->
 
-  <details>
-    <summary><h3>App Screenshots</h3></summary>
-
-
-  </details>
-
-
-
-
-
-  <details>
-    <summary><h3>App Map</h3></summary>
-     
-    
-
-  </details>
-
-
 
   
 
@@ -117,41 +105,59 @@ https://trello.com/b/esRn5hb3/sprint-1
 ### Tarih Aralığı
 ***20 Haziran*** - ***6 Temmuz***
 
-### Sprint Notları
-- UI tasarımlarında ------ kullanılmasına karar verildi .
-- Proje yönetim aracı olarak ***Trello*** kullanılmasına karar verildi .
-- Daily scrum toplantılarının ***Google Meet*** üzerinden yapılmasına karar verildi .
-- Giriş sistemi için ***detaylı çalışmalar henüz başlamadı***, ancak ***güvenli bir kimlik doğrulama yöntemi (örneğin e-posta/şifre veya sosyal medya entegrasyonu)*** kullanılması planlanmaktadır.
--Uygulamanın asıl temasının ***oyunlaştırılmış bir öğrenme deneyimi sunan, ejderha savaşı konseptiyle entegre bir yapı*** olmasına karar verildi.
-- Uygulamanın dilinin ilk aşamada ***Türkçe*** yapılmasına karar verildi .
-
-### Sprint İçinde Tamamlanması Beklenen Puan
-- ***300*** Puan
-
-### Puan Tamamlama Mantığı
-- Toplamda ***1200*** puanlık bir hedef belirlendi. Sprint-1'de 300 puanlık bir hedef belirlenmiş ve tamamlanmıştır. Sprint-2 ve Sprint-3'te projenin ***API entegrasyonu, backend geliştirme, detaylı ve kullanıcı deneyimi iyileştirmeleri***
-kısımlarına yoğunlaşılacağı için 450 hedef puanı olmasına karar verildi.
-
-### Sprint Gözden Geçirilmesi
-- Ürün isminin ***Academyth*** olmasına karar verildi .
-- Logoya karar verildi . 
--
--
--
 
 
+**Sprint Notları:**
 
-### Sprint Gözden Geçirme Katılımcıları
-- Çağan Atan
-- Ömer Faruk Karakurt
-- Aydanur Tokmak
-- Hümeyra Öztürk
+* UI tasarımlarında **sade ve işlevsel bir arayüz** kullanılmasına karar verildi.
+* Proje yönetim aracı olarak **Trello** kullanılmasına karar verildi.
+* Daily scrum toplantılarının Google Meet üzerinden yapılmasına karar verildi.
+* Giriş sistemi için **detaylı çalışmalar henüz başlamadı, ancak güvenli bir kimlik doğrulama yöntemi (örneğin e-posta/şifre veya sosyal medya entegrasyonu)** kullanılması planlanmaktadır.
+* Uygulamanın asıl temasının **oyunlaştırılmış öğrenme deneyimi sunan bir yapı ** olmasına karar verildi.
+* Uygulamanın dilinin **Türkçe** yapılmasına karar verildi.
 
-### Sprint Retrospektifi
--
--
--
--
+**Sprint İçinde Tamamlanması Beklenen Puan:** 300 Puan
+
+**Puan Tamamlama Mantığı:**
+Toplamda 1200 puanlık bir hedef belirlendi. Sprint-1'de 300 puanlık bir hedef belirlenmiş ve tamamlanmıştır. Sprint-2 ve Sprint-3'te projenin **API kod entegrasyonu, backend geliştirme, otomatik soru üretim mekanizmaları ve kullanıcı ilerleme takibi** kısımlarına yoğunlaşılacağı için 450 hedef puanı olmasına karar verildi.
+
+**Sprint Gözden Geçirilmesi (Sprint Review)**
+
+**Katılımcılar:** Çağan Atan (Product Owner), Aydanur Tokmak (Scrum Master), Ömer Faruk Karakurt (Developer), Hümeyra Öztürk (Developer)
+
+**Genel Değerlendirme:**
+Sprint 1, belirlenen hedefler doğrultusunda başarılı bir şekilde tamamlanmıştır. Takım, başlangıç aşamasındaki temel yapılandırmaları, ilk kullanıcı ihtiyaç analizlerini ve teknolojik altyapı araştırmalarını etkin bir şekilde yürütmüştür. Trello panosunda görüldüğü üzere, "Done for 1st Sprint" sütunundaki tüm görevler (GitHub Readme'nin araştırılması ve yazılması, Toplantı düzeninin oluşturulması, Frontend teknolojilerinin araştırılması, Backend teknolojilerinin araştırılması) tamamlanmıştır. "To Do" ve "Doing" sütunlarında planlanan bazı görevler ise sonraki sprintlere aktarılmıştır.
+
+**Tamamlanan Ürün Artımları:**
+
+* **Temel Proje Yapılandırması:** GitHub README belgesi oluşturularak projenin genel hatları, amacı ve takımı tanıtılmıştır. Bu, projenin şeffaflığı ve yeni katılımcılar için rehberliği sağlamıştır.
+* **Toplantı Düzeni ve İletişim Altyapısı:** Daily Scrum toplantıları için Google Meet kullanımına karar verilerek takım içi iletişimin sürekliliği sağlanmıştır. Trello'nun proje yönetim aracı olarak benimsenmesi, görev takibini ve şeffaflığı artırmıştır.
+* **Teknolojik Temel Araştırmaları:** Frontend ve Backend teknolojileri üzerine detaylı araştırmalar yapılmıştır. Bu araştırmalar, uygulamanın teknik mimarisi için sağlam bir temel oluşturacak ve gelecek sprintlerdeki geliştirme kararlarına yön verecektir. Bu sayede, projenin teknik yönelimleri netleşmeye başlamıştır.
+* **Kullanıcı Persona Çalışmaları (Kısmen):** Trello'daki "Kullanıcı Personalarının Oluşturulması" görevinin "To Do" kısmında olması, bu alandaki ilk çalışmaların başladığını göstermektedir.
+* **Oyun Konsepti ve İsim Belirleme:** Ürün ismi olarak "Academyth" kararlaştırılmış ve ejderha savaşı üzerine oyunlaştırma konsepti netleştirilmiştir.
+**Puan Hedefi ve Gerçekleşme:**
+Sprint 1 için belirlenen 300 puanlık hedefe ulaşılmıştır. Bu, takımın sprint planlama yeteneğinin ve iş tamamlama kapasitesinin başarılı olduğunu göstermektedir.
+
+
+
+**Sprint Retrospektifi**
+
+**Tarih:** 6 Temmuz 2025
+
+* **Etkili Takım İçi İletişim:** Daily Scrum toplantılarının düzenli olarak Google Meet üzerinden yapılması ve Trello'nun etkin kullanımı, takım üyeleri arasındaki iletişimi ve görev şeffaflığını artırdı. Herkesin görev durumundan haberdar olması, olası engellerin erken tespitini sağladı.
+* **Net Hedef Belirleme ve Ulaşma:** Sprint başında belirlenen 300 puanlık hedefe eksiksiz bir şekilde ulaşılması, takımın motivasyonunu yükseltti ve sprint planlamasının gerçekçi olduğunu gösterdi.
+* **Kapsamlı Araştırma Süreçleri:** Frontend ve Backend teknolojileri ile ilgili yapılan detaylı araştırmalar, projenin teknik yönü için sağlam bir temel oluşturdu ve gelecekteki olası teknik sıkıntıları minimize etme potansiyeli taşıyor.
+* **Erken Ürün Kimliği Belirleme:** Ürün adı ("Academyth") ve temel oyunlaştırma konsepti ("ejderha savaşı") üzerinde erken mutabık kalınması, takımın ortak vizyonunu pekiştirdi.
+* **Rol Dağılımının Netliği:** Takım rollerinin (Product Owner, Scrum Master, Developer) net bir şekilde belirlenmesi ve herkesin kendi sorumluluk alanında çalışması, verimliliği artırdı.
+
+
+**Gelecek Sprintler İçin Yapılacaklar:**
+
+* **UI:** Product Owner (Çağan Atan) ve Developer'lar (Ömer Faruk Karakurt, Hümeyra Öztürk) temel UI wireframe'lerini oluşturmak için bir araya gelecekler. Bu, ürünün görselleştirme sürecini hızlandıracaktır. **Hedef Tarih: Sprint 2 başlangıcı.**
+* **Çekirdek Özellik Detaylandırması:** Developer'lar (Ömer Faruk Karakurt, Hümeyra Öztürk), NLP ile otomatik soru üretim sistemi tasarımı ve PDF/Word dosya yükleme yapısının detaylı planlamasına öncelik verecekler. Bu görevler, Sprint 2'nin ilk backlog öğeleri olarak ele alınacak. **Hedef Tarih: Sprint 2 ortası.**
+* **Analiz ve Tasarım Tamamlama):** Scrum Master (Aydanur Tokmak), "Kullanıcı personalarının oluşturulması" ve "Uygulama akış diyagramının çizilmesi" görevlerinin tamamlanmasını sağlayacak, gerekirse takım içi workshop'lar organize edecek. **Hedef Tarih: Sprint 2 başlangıcı.**
+* **Puanlama ve Task Detayı:** Gelecek sprintlerde, büyük görevlerin daha küçük, daha ölçülebilir alt görevlere ayrılması ve her bir alt göreve daha detaylı puanlama yapılması değerlendirilecek, böylece sprint ilerlemesi daha hassas takip edilebilecektir. 
+
 
 
 </details>
