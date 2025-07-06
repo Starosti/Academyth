@@ -27,6 +27,9 @@ Temel Özellikler:
 - **Zorluk Seviyesi ve Performansa Dayalı Geribildirim**: Sorular üç farklı zorluk kategorisine ayrılmıştır: Kolay, Orta ve Zor. Kullanıcının seçtiği seviyeye göre sorudan elde edilen puan ve verilen hasar değişkenlik gösterir. Bu yapı, öğrencinin hem kendi seviyesini belirlemesine hem de konuları farklı derinliklerde çalışmasına olanak tanır.
 - **Amaç Odaklı Oyun Kurgusu**: Oyunun nihai hedefi, belirli bir can puanına sahip olan ejderhayı sorular aracılığıyla "yenmektir". Tüm sorular başarıyla tamamlandığında, hem konular tekrar edilmiş olur hem de kullanıcıya görsel ve sayısal performans geribildirimi sunulur.
 
+# İş Modeli Kanvası
+
+![17518221905107755127966473279576](https://github.com/user-attachments/assets/bcf8af0b-6833-4ac5-87d5-111509113b0e)
 
 
 # Ürün Özellikleri
@@ -77,6 +80,10 @@ https://trello.com/b/esRn5hb3/sprint-1
     <summary><h3>Project Management</h3></summary>
 
 
+![17518220164573581179225583921565](https://github.com/user-attachments/assets/a6fc5e32-1326-480f-af6f-377743ac81fa)
+
+
+
 
   </details>
 
@@ -87,6 +94,8 @@ https://trello.com/b/esRn5hb3/sprint-1
 
   <details>
     <summary><h3>Burndown Chart</h3></summary>
+
+![1751822264115911362930429725641](https://github.com/user-attachments/assets/5484714b-67f5-423d-9656-7c6b466e3ce7)
 
 
   </details>
