@@ -121,23 +121,26 @@ https://trello.com/b/esRn5hb3/sprint-1
 - UI tasarımlarında ------ kullanılmasına karar verildi .
 - Proje yönetim aracı olarak ***Trello*** kullanılmasına karar verildi .
 - Daily scrum toplantılarının ***Google Meet*** üzerinden yapılmasına karar verildi .
-- Giriş sistemi için ---- kullanılmasına karar verildi .
-- Uygulamanın asıl temasının ----- olmasına kara verildi .
-- Uygulamanın dilinin ------- yapılmasına karar verildi .
+- Giriş sistemi için ***detaylı çalışmalar henüz başlamadı***, ancak ***güvenli bir kimlik doğrulama yöntemi (örneğin e-posta/şifre veya sosyal medya entegrasyonu)*** kullanılması planlanmaktadır.
+-Uygulamanın asıl temasının ***oyunlaştırılmış bir öğrenme deneyimi sunan, ejderha savaşı konseptiyle entegre bir yapı*** olmasına karar verildi.
+- Uygulamanın dilinin ilk aşamada ***Türkçe*** yapılmasına karar verildi .
 
 ### Sprint İçinde Tamamlanması Beklenen Puan
 - ***300*** Puan
 
 ### Puan Tamamlama Mantığı
-- Toplamda ***1200*** puanlık bir hedeef belirlendi . Sprint-1'de ***300*** pıuanlık bir hedef belirlenmiş ve tamamlanmıştır . Sprint-2 ve Sprint-3'te projenin -(apı kod entegrasyon vs vs )-------- kısımlarına yoğunlaşılacağı için ***450*** hedef puanı olmasına karar verildi .  
+- Toplamda ***1200*** puanlık bir hedef belirlendi. Sprint-1'de 300 puanlık bir hedef belirlenmiş ve tamamlanmıştır. Sprint-2 ve Sprint-3'te projenin ***API entegrasyonu, backend geliştirme, detaylı ve kullanıcı deneyimi iyileştirmeleri***
+kısımlarına yoğunlaşılacağı için 450 hedef puanı olmasına karar verildi.
 
 ### Sprint Gözden Geçirilmesi
 - Ürün isminin ***Academyth*** olmasına karar verildi .
-- Logoya henüz karar verilmeidi .
-- 
+- Logoya karar verildi . 
 -
 -
 -
+
+
+
 ### Sprint Gözden Geçirme Katılımcıları
 - Çağan Atan
 - Ömer Faruk Karakurt
