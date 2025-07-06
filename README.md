@@ -108,7 +108,16 @@ https://trello.com/b/esRn5hb3/sprint-1
 
   </details>
 
+<details>
+    <summary><h3>Toplantılar</h3></summary>
 
+![17518294784111599973741563906015](https://github.com/user-attachments/assets/852f544e-0148-4328-ac92-76c9f22418ac)
+
+
+![17518295662371373598295775331415](https://github.com/user-attachments/assets/8f00f2eb-ac9e-44bf-8b62-ea29f35c98b1)
+
+
+</details>
 
 
 
