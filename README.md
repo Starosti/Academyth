@@ -101,6 +101,12 @@ https://trello.com/b/esRn5hb3/sprint-1
   </details>
 
 
+  <details>
+    <summary><h3>UI Draft</h3></summary>
+    
+![1751822264115911362930429725641](https://github.com/user-attachments/assets/52773e40-b9b2-426b-abfc-cd50e101e5b3)
+
+  </details>
 
 
 
@@ -136,6 +142,7 @@ Sprint 1, belirlenen hedefler doğrultusunda başarılı bir şekilde tamamlanm�
 **Tamamlanan Ürün Artımları:**
 
 * **Temel Proje Yapılandırması:** GitHub README belgesi oluşturularak projenin genel hatları, amacı ve takımı tanıtılmıştır. Bu, projenin şeffaflığı ve yeni katılımcılar için rehberliği sağlamıştır.
+* **Arayüz Taslağı Oluşturulması:** Arayüz için temel ve ana fonksiyonları ele alan bir taslak oluşturulmuştur.
 * **Toplantı Düzeni ve İletişim Altyapısı:** Daily Scrum toplantıları için Google Meet kullanımına karar verilerek takım içi iletişimin sürekliliği sağlanmıştır. Trello'nun proje yönetim aracı olarak benimsenmesi, görev takibini ve şeffaflığı artırmıştır.
 * **Teknolojik Temel Araştırmaları:** Frontend ve Backend teknolojileri üzerine detaylı araştırmalar yapılmıştır. Bu araştırmalar, uygulamanın teknik mimarisi için sağlam bir temel oluşturacak ve gelecek sprintlerdeki geliştirme kararlarına yön verecektir. Bu sayede, projenin teknik yönelimleri netleşmeye başlamıştır.
 * **Kullanıcı Persona Çalışmaları (Kısmen):** Trello'daki "Kullanıcı Personalarının Oluşturulması" görevinin "To Do" kısmında olması, bu alandaki ilk çalışmaların başladığını göstermektedir.
@@ -158,7 +165,7 @@ Sprint 1 için belirlenen 300 puanlık hedefe ulaşılmıştır. Bu, takımın s
 
 **Gelecek Sprintler İçin Yapılacaklar:**
 
-* **UI:** Product Owner (Çağan Atan) ve Developer'lar (Ömer Faruk Karakurt, Hümeyra Öztürk) temel UI wireframe'lerini oluşturmak için bir araya gelecekler. Bu, ürünün görselleştirme sürecini hızlandıracaktır. **Hedef Tarih: Sprint 2 başlangıcı.**
+* **UI:** Product Owner (Çağan Atan) ve Developer'lar (Ömer Faruk Karakurt, Hümeyra Öztürk) arayüz geliştirmesine başlayacaklar. **Hedef Tarih: Sprint 2 başlangıcı.**
 * **Çekirdek Özellik Detaylandırması:** Developer'lar (Ömer Faruk Karakurt, Hümeyra Öztürk), NLP ile otomatik soru üretim sistemi tasarımı ve PDF/Word dosya yükleme yapısının detaylı planlamasına öncelik verecekler. Bu görevler, Sprint 2'nin ilk backlog öğeleri olarak ele alınacak. **Hedef Tarih: Sprint 2 ortası.**
 * **Analiz ve Tasarım Tamamlama):** Scrum Master (Aydanur Tokmak), "Kullanıcı personalarının oluşturulması" ve "Uygulama akış diyagramının çizilmesi" görevlerinin tamamlanmasını sağlayacak, gerekirse takım içi workshop'lar organize edecek. **Hedef Tarih: Sprint 2 başlangıcı.**
 * **Puanlama ve Task Detayı:** Gelecek sprintlerde, büyük görevlerin daha küçük, daha ölçülebilir alt görevlere ayrılması ve her bir alt göreve daha detaylı puanlama yapılması değerlendirilecek, böylece sprint ilerlemesi daha hassas takip edilebilecektir. 
