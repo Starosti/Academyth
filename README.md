@@ -63,7 +63,7 @@ Temel Özellikler:
 - Eğitimde oyunlaştırma ve interaktif öğrenme gibi kavramlara değer veren eğitimciler.
 - Klasik test çözümlerinden sıkılmış, aktif öğrenme yöntemlerine açık bireyler.
 
-# Product Backlog
+# Product Backlog - Sprint_1
 https://trello.com/b/esRn5hb3/sprint-1
 
 
@@ -185,3 +185,119 @@ Sprint 1 için belirlenen 300 puanlık hedefe ulaşılmıştır. Bu, takımın s
 
 
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Product Backlog - Sprint_2
+
+
+
+
+<details>
+  <summary><h1>Sprint 2</h1></summary>
+
+  <!-- Küçük açılır başlıklar -->
+
+
+  
+
+  <details>
+    <summary><h3>Project Management</h3></summary>
+
+
+
+
+
+  </details>
+
+
+
+
+
+
+  <details>
+    <summary><h3>Burndown Chart</h3></summary>
+
+
+
+  </details>
+
+
+  
+<details>
+    <summary><h3>Toplantılar</h3></summary>
+
+![17518294784111599973741563906015](https://github.com/user-attachments/assets/852f544e-0148-4328-ac92-76c9f22418ac)
+
+</details>
+
+
+
+  
+### Tarih Aralığı
+***7 Temmuz*** - ***20 Temmuz***
+
+
+
+**Sprint Notları:**
+
+* UI tasarımlarında **sade ve işlevsel bir arayüz** kullanılmasına karar verildi.
+* 
+
+**Sprint İçinde Tamamlanması Beklenen Puan:** 450 Puan
+
+**Sprint Gözden Geçirilmesi (Sprint Review)**
+
+**Katılımcılar:** Çağan Atan (Product Owner), Aydanur Tokmak (Scrum Master), Ömer Faruk Karakurt (Developer), Hümeyra Öztürk (Developer)
+
+**Genel Değerlendirme:**
+
+
+
+**Tamamlanan Ürün Artımları:**
+
+**Puan Hedefi ve Gerçekleşme:**
+Sprint2 için belirlenen 450 puanlık hedefe ulaşılmıştır. Bu, takımın sprint planlama yeteneğinin ve iş tamamlama kapasitesinin başarılı olduğunu göstermektedir.
+
+
+
+**Sprint Retrospektifi**
+
+**Tarih:** 20 Temmuz 2025
+
+* **Etkili Takım İçi İletişim:** Daily Scrum toplantılarının düzenli olarak Google Meet üzerinden yapılması ve Trello'nun etkin kullanımı, takım üyeleri arasındaki iletişimi ve görev şeffaflığını artırdı. Herkesin görev durumundan haberdar olması, olası engellerin erken tespitini sağladı.
+* **Net Hedef Belirleme ve Ulaşma:** Sprint başında belirlenen 300 puanlık hedefe eksiksiz bir şekilde ulaşılması, takımın motivasyonunu yükseltti ve sprint planlamasının gerçekçi olduğunu gösterdi.
+* **Kapsamlı Araştırma Süreçleri:** Frontend ve Backend teknolojileri ile ilgili yapılan detaylı araştırmalar, projenin teknik yönü için sağlam bir temel oluşturdu ve gelecekteki olası teknik sıkıntıları minimize etme potansiyeli taşıyor.
+* **Erken Ürün Kimliği Belirleme:** Ürün adı ("Academyth") ve temel oyunlaştırma konsepti ("ejderha savaşı") üzerinde erken mutabık kalınması, takımın ortak vizyonunu pekiştirdi.
+* **Rol Dağılımının Netliği:** Takım rollerinin (Product Owner, Scrum Master, Developer) net bir şekilde belirlenmesi ve herkesin kendi sorumluluk alanında çalışması, verimliliği artırdı.
+
+
+**Gelecek Sprintler İçin Yapılacaklar:**
+
+
+
+
+</details>
+
+
+</details>
+
+
+
+
+
+
+
+
+
+
