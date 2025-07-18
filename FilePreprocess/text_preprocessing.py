@@ -1,9 +1,10 @@
-import fitz
+import fitz  # PyMuPDF
 import docx
 import re
 import spacy
+from keybert import KeyBERT
 
-# --- Metin çıkarma fonksiyonları ---
+# --- PDF/Word metin çıkarma ---
 
 def extract_text_from_pdf(pdf_path: str) -> str:
     text = ""
@@ -17,15 +18,15 @@ def extract_text_from_docx(docx_path: str) -> str:
     text = " ".join(para.text for para in doc.paragraphs)
     return text
 
-# --- Metin temizleme fonksiyonu ---
+# --- Metin temizleme ---
 
 def clean_text(text: str) -> str:
-    text = text.replace("\n", " ")                 # Satır sonlarını boşluk yap
-    text = re.sub(r'\s+', ' ', text)               # Çoklu boşlukları tek boşluk yap
-    text = re.sub(r'[^\w\s.,?!]', '', text)        # Özel karakterleri kaldır (Türkçe karakterler dahil)
+    text = text.replace("\n", " ")
+    text = re.sub(r'\s+', ' ', text)
+    text = re.sub(r'[^\w\s.,?!]', '', text)
     return text.strip()
 
-# --- spaCy ile cümle bölme ---
+# --- Cümlelere bölme ---
 
 nlp = spacy.load("xx_sent_ud_sm")
 
@@ -33,31 +34,54 @@ def split_into_sentences(text: str) -> list[str]:
     doc = nlp(text)
     return [sent.text.strip() for sent in doc.sents]
 
-# --- Ana pipeline fonksiyonu ---
+# --- Keyword extraction ---
 
-def process_document(file_path: str) -> list[str]:
+kw_model = KeyBERT(model='paraphrase-multilingual-MiniLM-L12-v2')
+
+def extract_keywords(text: str, top_n=10):
+    keywords = kw_model.extract_keywords(
+        text,
+        keyphrase_ngram_range=(1, 2),
+        stop_words=None,
+        top_n=top_n
+    )
+    return keywords
+
+# --- Ana pipeline ---
+
+def process_document(file_path: str):
+    # Dosyadan metin al
     if file_path.lower().endswith(".pdf"):
         raw_text = extract_text_from_pdf(file_path)
     elif file_path.lower().endswith(".docx"):
         raw_text = extract_text_from_docx(file_path)
     else:
-        raise ValueError("Desteklenmeyen dosya formatı. Sadece PDF veya DOCX olmalı.")
-    
-    cleaned = clean_text(raw_text)
-    sentences = split_into_sentences(cleaned)
-    return sentences
+        raise ValueError("Desteklenmeyen format. PDF veya DOCX olmalı.")
 
-# --- Test için ---
+    # Temizle
+    cleaned = clean_text(raw_text)
+
+    # Cümlelere böl
+    sentences = split_into_sentences(cleaned)
+
+    # Keyword çıkar
+    keywords = extract_keywords(cleaned, top_n=15)
+
+    # TXT çıktısı
+    with open("output.txt", "w", encoding="utf-8") as f:
+        f.write("=== CÜMLELER ===\n")
+        for s in sentences:
+            f.write(s + "\n")
+        f.write("\n=== ANAHTAR KELİMELER ===\n")
+        for kw, score in keywords:
+            f.write(f"{kw} ({score:.4f})\n")
+
+    print(f"İşlem tamamlandı! {len(sentences)} cümle bulundu. Anahtar kelimeler output.txt dosyasına yazıldı.")
 
 if __name__ == "__main__":
     import sys
     if len(sys.argv) != 2:
-        print("Kullanım: python academyth_text_preprocessing.py <dosya_yolu>")
+        print("Kullanım: python academyth_pipeline.py <dosya_yolu>")
         sys.exit(1)
 
-    dosya = sys.argv[1]
-    cümleler = process_document(dosya)
-    print(f"Toplam cümle sayısı: {len(cümleler)}")
-    print("İlk 10 cümle:")
-    for cümle in cümleler[:10]:
-        print("-", cümle)
+    process_document(sys.argv[1])
