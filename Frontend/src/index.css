@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Crimson+Pro:wght@300;400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ACADEMYTH Medieval Fantasy Design System */
+
+@layer base {
+  :root {
+    /* Medieval Castle Theme */
+    --background: 26 12% 6%; /* #12100E - Dark castle stone */
+    --foreground: 46 69% 92%; /* #f5f0dc - Scroll parchment text */
+
+    --card: 30 15% 10%; /* Darker stone card */
+    --card-foreground: 46 69% 92%;
+
+    --popover: 30 15% 10%;
+    --popover-foreground: 46 69% 92%;
+
+    --primary: 43 52% 60%; /* Updated primary color */
+    --primary-foreground: 26 12% 6%;
+
+    --secondary: 46 69% 88%; /* Lighter parchment */
+    --secondary-foreground: 26 12% 6%;
+
+    --muted: 30 15% 15%; /* Muted stone */
+    --muted-foreground: 46 45% 70%;
+
+    --accent: 43 52% 60%; /* Updated to match primary */
+    --accent-foreground: 26 12% 6%;
+
+    --destructive: 0 61% 43%; /* #a83232 - Blood Red */
+    --destructive-foreground: 46 69% 92%;
+
+    --success: 134 61% 41%; /* #34a853 - Emerald Green */
+    --success-foreground: 46 69% 92%;
+
+    --border: 30 15% 20%; /* Stone border */
+    --input: 30 15% 15%;
+    --ring: 43 52% 60%; /* Updated to match primary */
+
+    --radius: 0.5rem;
+
+    /* Medieval Gradients */
+    --gradient-gold: linear-gradient(135deg, hsl(43 52% 60%), hsl(43 52% 55%));
+    --gradient-parchment: linear-gradient(
+      180deg,
+      hsl(46 69% 88%),
+      hsl(46 69% 82%)
+    );
+    --gradient-stone: linear-gradient(180deg, hsl(30 15% 12%), hsl(30 15% 8%));
+
+    /* Medieval Shadows */
+    --shadow-medieval: 0 4px 20px hsl(26 12% 6% / 0.5);
+    --shadow-gold-glow: 0 0 20px hsl(43 52% 60% / 0.3);
+
+    /* Medieval Effects */
+    --transition-medieval: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
