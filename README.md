@@ -214,6 +214,7 @@ Sprint 1 için belirlenen 300 puanlık hedefe ulaşılmıştır. Bu, takımın s
   <details>
     <summary><h3>Project Management</h3></summary>
 
+![17529389733251610048888020542999](https://github.com/user-attachments/assets/73e84b4c-bdb0-4318-bb33-d51d6775e4db)
 
 
 
@@ -228,6 +229,7 @@ Sprint 1 için belirlenen 300 puanlık hedefe ulaşılmıştır. Bu, takımın s
   <details>
     <summary><h3>Burndown Chart</h3></summary>
 
+<img width="1980" height="1180" alt="17529392808067443320952651881575" src="https://github.com/user-attachments/assets/97219eb7-9dee-4ca9-9d1d-9c8172075501" />
 
 
   </details>
@@ -236,8 +238,24 @@ Sprint 1 için belirlenen 300 puanlık hedefe ulaşılmıştır. Bu, takımın s
   
 <details>
     <summary><h3>Toplantılar</h3></summary>
+- Bir adet genel toplantı yapıldı, yapılan görev dağılımına göre ilerledi. 
 
-![17518294784111599973741563906015](https://github.com/user-attachments/assets/852f544e-0148-4328-ac92-76c9f22418ac)
+![17529393416281511308492537336131](https://github.com/user-attachments/assets/bd6c8037-5612-4b1c-a74f-b9d064fbce40)
+
+</details>
+
+
+<details>
+    <summary><h3>NLP</h3></summary>
+# NLP File Preprocess 
+  
+https://drive.google.com/file/d/1O6db_c5NujB_UmNlFLq3TRe6ABElreft/view?usp=drivesdk
+
+# NLP Flow Chart
+
+
+<img width="2067" height="708" alt="17529398183362658871116184602059" src="https://github.com/user-attachments/assets/0cbd5292-9193-418c-8a33-28183efd78d2" />
+
 
 </details>
 
