@@ -63,9 +63,9 @@ Temel Özellikler:
 - Eğitimde oyunlaştırma ve interaktif öğrenme gibi kavramlara değer veren eğitimciler.
 - Klasik test çözümlerinden sıkılmış, aktif öğrenme yöntemlerine açık bireyler.
 
-# Product Backlog - Sprint_1
-https://trello.com/b/esRn5hb3/sprint-1
+# Product Backlog 
 
+https://trello.com/b/esRn5hb3
 
 
 <details>
@@ -198,7 +198,7 @@ Sprint 1 için belirlenen 300 puanlık hedefe ulaşılmıştır. Bu, takımın s
 
 
 
-# Product Backlog - Sprint_2
+
 
 
 
