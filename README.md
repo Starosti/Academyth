@@ -236,14 +236,6 @@ Sprint 1 için belirlenen 300 puanlık hedefe ulaşılmıştır. Bu, takımın s
 
 
   
-<details>
-    <summary><h3>Toplantılar</h3></summary>
-- Bir adet genel toplantı yapıldı, yapılan görev dağılımına göre ilerledi. 
-
-![17529393416281511308492537336131](https://github.com/user-attachments/assets/bd6c8037-5612-4b1c-a74f-b9d064fbce40)
-
-</details>
-
 
 <details>
     <summary><h3>NLP</h3></summary>
@@ -261,6 +253,17 @@ https://drive.google.com/file/d/1O6db_c5NujB_UmNlFLq3TRe6ABElreft/view?usp=drive
 
 
 
+<details>
+    <summary><h3>Toplantılar</h3></summary>
+- Bir adet genel toplantı yapıldı, yapılan görev dağılımına göre ilerledi. 
+
+![17529393416281511308492537336131](https://github.com/user-attachments/assets/bd6c8037-5612-4b1c-a74f-b9d064fbce40)
+
+</details>
+
+
+
+
   
 ### Tarih Aralığı
 ***7 Temmuz*** - ***20 Temmuz***
@@ -270,22 +273,43 @@ https://drive.google.com/file/d/1O6db_c5NujB_UmNlFLq3TRe6ABElreft/view?usp=drive
 **Sprint Notları:**
 
 * UI tasarımlarında **sade ve işlevsel bir arayüz** kullanılmasına karar verildi.
-* 
+* Proje yönetim aracı olarak **Trello** kullanılmasına karar verildi.
+* Daily scrum toplantılarının Google Meet üzerinden yapılmasına karar verildi.
+* Giriş sistemi için **detaylı çalışmalar henüz başlamadı, ancak güvenli bir kimlik doğrulama yöntemi (örneğin e-posta/şifre veya sosyal medya entegrasyonu)** kullanılması planlanmaktadır.
+* Uygulamanın asıl temasının **oyunlaştırılmış öğrenme deneyimi sunan bir yapı ** olmasına karar verildi.
+* Uygulamanın dilinin **Türkçe** yapılmasına karar verildi.
 
 **Sprint İçinde Tamamlanması Beklenen Puan:** 450 Puan
+
+**Puan Tamamlama Mantığı:** Toplamda 1200 puanlık bir genel proje hedefi belirlenmiştir. Sprint-1'de 300 puanlık bir hedef belirlenmiş ve başarıyla tamamlanmıştır. Sprint-2 ve Sprint-3'te projenin API kod entegrasyonu, backend geliştirme, otomatik soru üretim mekanizmaları ve kullanıcı ilerleme takibi kısımlarına yoğunlaşılacağı için Sprint 2 için 450 puanlık bir hedef belirlenmiştirve tamamlanmıştır .
+
+
 
 **Sprint Gözden Geçirilmesi (Sprint Review)**
 
 **Katılımcılar:** Çağan Atan (Product Owner), Aydanur Tokmak (Scrum Master), Ömer Faruk Karakurt (Developer), Hümeyra Öztürk (Developer)
 
-**Genel Değerlendirme:**
+**Genel Değerlendirme:** Sprint 2, belirlenen 450 puanlık kapasite hedefi doğrultusunda oldukça başarılı ve kritik bir ilerleme sergilemiştir. Proje, Sprint 1'deki araştırma ve planlama fazından, temel ürün özelliklerinin somut olarak tasarlandığı ve geliştirildiği bir faza evrilmiştir. Trello panosundaki "Done for 2nd Sprint" sütununda tamamlanan görevler, ürünün anahtar işlevselliklerinin oluşmaya başladığını ve kullanıcıya sunulabilir bir arayüzün temellerinin atıldığını net bir şekilde göstermektedir.
 
 
 
-**Tamamlanan Ürün Artımları:**
+
+
+**Tamamlanan Ürün Artımları**
+
+**NLP ile Otomatik Soru Üretim Sistemi Tasarımı:** Academyth'in temelini oluşturan otomatik soru üretim mekanizmasının genel mimarisi ve detaylı tasarımı başarıyla tamamlanmıştır. Bu çıktı, kullanıcıların yüklediği içeriklerden doğru ve anlamlı sorular üretme yeteneği için sağlam bir teknik temel sağlamaktadır.
+
+**Yüklenen Dokümanlar Üzerinde Ön İşleme Mekanizması:** Kullanıcı tarafından yüklenen materyallerin (PDF, Word) sistem tarafından efektif bir şekilde okunup analiz edilebilmesi için gerekli ön işleme algoritmaları ve modülleri geliştirilmiştir. Bu, veri girdisinin kalitesini ve işlenebilirliğini maksimize etmektedir.
+
+**Ayıklanan Cümleler Üzerinde Anahtar Kelime Seçim Modülü:** Otomatik soru üretim sürecinin kritik bir adımı olan, işlenmiş metinlerden anlamlı anahtar kelimelerin otomatik olarak seçilmesi yeteneği başarıyla hayata geçirilmiştir. Bu modül, üretilecek soruların içeriğinin belirlenmesinde merkezi rol oynamaktadır.
+
+**Genel Kullanıcı Arayüzünün Tamamlanması:** Uygulamanın kullanıcılarla doğrudan etkileşim kuracağı ana arayüzün büyük bir kısmı tamamlanmıştır. Bu, ürünün görsel ve işlevsel olarak önemli bir olgunluğa ulaştığını ve kullanıcı deneyimi odaklı bir yaklaşımın benimsendiğini göstermektedir.
+
+
+
 
 **Puan Hedefi ve Gerçekleşme:**
-Sprint2 için belirlenen 450 puanlık hedefe ulaşılmıştır. Bu, takımın sprint planlama yeteneğinin ve iş tamamlama kapasitesinin başarılı olduğunu göstermektedir.
+Sprint 1 için belirlenen 300 puanlık hedefe ulaşılmıştır. Bu, takımın sprint planlama yeteneğinin ve iş tamamlama kapasitesinin başarılı olduğunu göstermektedir.
 
 
 
@@ -293,18 +317,29 @@ Sprint2 için belirlenen 450 puanlık hedefe ulaşılmıştır. Bu, takımın sp
 
 **Tarih:** 20 Temmuz 2025
 
-* **Etkili Takım İçi İletişim:** Daily Scrum toplantılarının düzenli olarak Google Meet üzerinden yapılması ve Trello'nun etkin kullanımı, takım üyeleri arasındaki iletişimi ve görev şeffaflığını artırdı. Herkesin görev durumundan haberdar olması, olası engellerin erken tespitini sağladı.
-* **Net Hedef Belirleme ve Ulaşma:** Sprint başında belirlenen 300 puanlık hedefe eksiksiz bir şekilde ulaşılması, takımın motivasyonunu yükseltti ve sprint planlamasının gerçekçi olduğunu gösterdi.
-* **Kapsamlı Araştırma Süreçleri:** Frontend ve Backend teknolojileri ile ilgili yapılan detaylı araştırmalar, projenin teknik yönü için sağlam bir temel oluşturdu ve gelecekteki olası teknik sıkıntıları minimize etme potansiyeli taşıyor.
-* **Erken Ürün Kimliği Belirleme:** Ürün adı ("Academyth") ve temel oyunlaştırma konsepti ("ejderha savaşı") üzerinde erken mutabık kalınması, takımın ortak vizyonunu pekiştirdi.
-* **Rol Dağılımının Netliği:** Takım rollerinin (Product Owner, Scrum Master, Developer) net bir şekilde belirlenmesi ve herkesin kendi sorumluluk alanında çalışması, verimliliği artırdı.
+**Ekibin İlk Sprintteki Başarısı:** Sprint-1'den aldığımız puan bu sprintteki çalışmalarımız  için büyük bir motivasyon oldu .
+
+**Etkili Takım İçi İletişim:** Sprin-2'nin başlangıcında Google Meet üzerinden yaptığımız toplantı , arada WhatsApp grubu üzerinden günlük bilgilendirme ve Trello'nun etkin kullanımı , takım üyeleri arasındaki iletişimi ve görev şeffaflığını sürdürerek artırmıştır. Bu sayede, herkesin görev durumundan haberdar olması ve olası engellerin erken tespiti sağlanmıştır.
+
+* **Net Hedef Belirleme ve Ulaşma:** Sprint başında belirlenen 450 puanlık hedefe yönelik önemli ilerlemeler kaydedilmesi, takımın motivasyonunu yüksek tutmuş ve artan karmaşıklıktaki işleri tamamlama kapasitesini göstermiştir.
+
+* **Kapsamlı Teknik Gelişimler:** NLP sistemi tasarımı, doküman ön işleme ve anahtar kelime seçimi gibi projenin temelini oluşturan alanlardaki gelişmeler, ürünün teknik derinliğini ve yenilikçi potansiyelini pekiştirmiştir.
+
+* **Arayüz Olgunluğu:** Arayüzün genel olarak tamamlanması, kullanıcı odaklı bir geliştirme sürecinin benimsendiğini ve ürünün kullanılabilir bir prototip seviyesine ulaştığını göstermektedir.
+
+* **Rol Dağılımının Netliği:** Takım rollerinin (Product Owner, Scrum Master, Developer) net bir şekilde tanımlanmış olması ve her üyenin kendi sorumluluk alanında çalışmaya devam etmesi, verimliliğin sürdürülmesine katkı sağlamıştır.
 
 
-**Gelecek Sprintler İçin Yapılacaklar:**
 
+**Gelecek Sprintler İçin Yapılacaklar**
 
+* **Çekirdek Özellik Geliştirmeleri:** Tamamlanan tasarım ve ön işleme adımlarının ardından, NLP modellerinin entegrasyonu, otomatik soru üretim algoritmalarının kodlanması ve sistemin uçtan uca çalışır hale getirilmesi temel öncelik olacaktır.
 
+* **Giriş Sistemi ve Kimlik Doğrulama:** Güvenli bir kimlik doğrulama yöntemi (örneğin e-posta/şifre veya sosyal medya entegrasyonu) üzerine detaylı çalışmalar başlatılacaktır.
 
+* **Oyunlaştırma Sistemi Kurgusu:** "Ejderha savaşı" temalı oyunlaştırma sisteminin detaylı kurgusunun yazımı ve bu kurgunun teknik gereksinimlerinin belirlenmesi üzerine çalışılacaktır.
+
+* **Kapsamlı Test Senaryoları:** Tamamlanan modüller ve genel arayüz için kullanıcı testi senaryolarının hazırlanmasına başlanacak, ürünün kalite güvencesi süreçleri devreye alınacaktır.
 </details>
 
 
