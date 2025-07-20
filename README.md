@@ -214,7 +214,7 @@ Sprint 1 için belirlenen 300 puanlık hedefe ulaşılmıştır. Bu, takımın s
   <details>
     <summary><h3>Project Management</h3></summary>
 
-![17529389733251610048888020542999](https://github.com/user-attachments/assets/73e84b4c-bdb0-4318-bb33-d51d6775e4db)
+<img width="1360" height="529" alt="image" src="https://github.com/user-attachments/assets/410ad8ce-9ff0-4add-b0c7-312d78432019" />
 
 
 
