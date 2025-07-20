@@ -235,6 +235,18 @@ Sprint 1 için belirlenen 300 puanlık hedefe ulaşılmıştır. Bu, takımın s
   </details>
 
 
+
+ <details>
+    <summary><h3>UI</h3></summary>
+
+
+
+  </details>
+
+
+
+
+
   
 
 <details>
