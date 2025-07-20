@@ -267,7 +267,7 @@ https://drive.google.com/file/d/1VidCxATbh4R5nJMlZNwXsPWUtdy3b4kK/view?usp=drive
 
 <details>
     <summary><h3>Toplantılar</h3></summary>
-- Bir adet genel toplantı yapıldı, yapılan görev dağılımına göre ilerledi. 
+<li> Bir adet genel toplantı yapıldı, yapılan görev dağılımına göre ilerlendi.
 
 ![17529393416281511308492537336131](https://github.com/user-attachments/assets/bd6c8037-5612-4b1c-a74f-b9d064fbce40)
 
