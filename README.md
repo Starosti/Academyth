@@ -269,15 +269,18 @@ https://drive.google.com/file/d/1O6db_c5NujB_UmNlFLq3TRe6ABElreft/view?usp=drive
 ***7 Temmuz*** - ***20 Temmuz***
 
 
+**Sprint Hedefi:** Ürünün temel işlevselliği olan NLP tabanlı otomatik soru üretim sisteminin tasarımını tamamlamak, doküman ön işleme ve anahtar kelime seçimi mekanizmalarını geliştirmek ve kullanıcı arayüzünün genel yapısını tamamlayarak ürünün temel kullanılabilirliğini sağlamak.
+
 
 **Sprint Notları:**
 
-* UI tasarımlarında **sade ve işlevsel bir arayüz** kullanılmasına karar verildi.
-* Proje yönetim aracı olarak **Trello** kullanılmasına karar verildi.
-* Daily scrum toplantılarının Google Meet üzerinden yapılmasına karar verildi.
-* Giriş sistemi için **detaylı çalışmalar henüz başlamadı, ancak güvenli bir kimlik doğrulama yöntemi (örneğin e-posta/şifre veya sosyal medya entegrasyonu)** kullanılması planlanmaktadır.
-* Uygulamanın asıl temasının **oyunlaştırılmış öğrenme deneyimi sunan bir yapı ** olmasına karar verildi.
-* Uygulamanın dilinin **Türkçe** yapılmasına karar verildi.
+* NLP ile otomatik soru üretim sisteminin tasarımı başarıyla tamamlandı.
+* Yüklenen dokümanlar üzerinde ön işleme adımları belirlendi ve uygulandı.
+* Ayıklanan cümleler üzerinde anahtar kelime seçimi mekanizması geliştirildi.
+
+* Arayüzün genel olarak tamamlanması yönünde büyük bir ilerleme kaydedildi.
+
+* Sprint 1'den gelen UI geliştirme ve çekirdek özellik detaylandırması üzerine odaklanıldı.
 
 **Sprint İçinde Tamamlanması Beklenen Puan:** 450 Puan
 
@@ -297,13 +300,13 @@ https://drive.google.com/file/d/1O6db_c5NujB_UmNlFLq3TRe6ABElreft/view?usp=drive
 
 **Tamamlanan Ürün Artımları**
 
-**NLP ile Otomatik Soru Üretim Sistemi Tasarımı:** Academyth'in temelini oluşturan otomatik soru üretim mekanizmasının genel mimarisi ve detaylı tasarımı başarıyla tamamlanmıştır. Bu çıktı, kullanıcıların yüklediği içeriklerden doğru ve anlamlı sorular üretme yeteneği için sağlam bir teknik temel sağlamaktadır.
+* **NLP ile Otomatik Soru Üretim Sistemi Tasarımı:** Academyth'in temelini oluşturan otomatik soru üretim mekanizmasının genel mimarisi ve detaylı tasarımı başarıyla tamamlanmıştır. Bu çıktı, kullanıcıların yüklediği içeriklerden doğru ve anlamlı sorular üretme yeteneği için sağlam bir teknik temel sağlamaktadır.
 
-**Yüklenen Dokümanlar Üzerinde Ön İşleme Mekanizması:** Kullanıcı tarafından yüklenen materyallerin (PDF, Word) sistem tarafından efektif bir şekilde okunup analiz edilebilmesi için gerekli ön işleme algoritmaları ve modülleri geliştirilmiştir. Bu, veri girdisinin kalitesini ve işlenebilirliğini maksimize etmektedir.
+* **Yüklenen Dokümanlar Üzerinde Ön İşleme Mekanizması:** Kullanıcı tarafından yüklenen materyallerin (PDF, Word) sistem tarafından efektif bir şekilde okunup analiz edilebilmesi için gerekli ön işleme algoritmaları ve modülleri geliştirilmiştir. Bu, veri girdisinin kalitesini ve işlenebilirliğini maksimize etmektedir.
 
-**Ayıklanan Cümleler Üzerinde Anahtar Kelime Seçim Modülü:** Otomatik soru üretim sürecinin kritik bir adımı olan, işlenmiş metinlerden anlamlı anahtar kelimelerin otomatik olarak seçilmesi yeteneği başarıyla hayata geçirilmiştir. Bu modül, üretilecek soruların içeriğinin belirlenmesinde merkezi rol oynamaktadır.
+* **Ayıklanan Cümleler Üzerinde Anahtar Kelime Seçim Modülü:** Otomatik soru üretim sürecinin kritik bir adımı olan, işlenmiş metinlerden anlamlı anahtar kelimelerin otomatik olarak seçilmesi yeteneği başarıyla hayata geçirilmiştir. Bu modül, üretilecek soruların içeriğinin belirlenmesinde merkezi rol oynamaktadır.
 
-**Genel Kullanıcı Arayüzünün Tamamlanması:** Uygulamanın kullanıcılarla doğrudan etkileşim kuracağı ana arayüzün büyük bir kısmı tamamlanmıştır. Bu, ürünün görsel ve işlevsel olarak önemli bir olgunluğa ulaştığını ve kullanıcı deneyimi odaklı bir yaklaşımın benimsendiğini göstermektedir.
+* **Genel Kullanıcı Arayüzünün Tamamlanması:** Uygulamanın kullanıcılarla doğrudan etkileşim kuracağı ana arayüzün büyük bir kısmı tamamlanmıştır. Bu, ürünün görsel ve işlevsel olarak önemli bir olgunluğa ulaştığını ve kullanıcı deneyimi odaklı bir yaklaşımın benimsendiğini göstermektedir.
 
 
 
@@ -317,9 +320,9 @@ Sprint 1 için belirlenen 300 puanlık hedefe ulaşılmıştır. Bu, takımın s
 
 **Tarih:** 20 Temmuz 2025
 
-**Ekibin İlk Sprintteki Başarısı:** Sprint-1'den aldığımız puan bu sprintteki çalışmalarımız  için büyük bir motivasyon oldu .
+* **Ekibin İlk Sprintteki Başarısı:** Sprint-1'den aldığımız puan bu sprintteki çalışmalarımız  için büyük bir motivasyon oldu .
 
-**Etkili Takım İçi İletişim:** Sprin-2'nin başlangıcında Google Meet üzerinden yaptığımız toplantı , arada WhatsApp grubu üzerinden günlük bilgilendirme ve Trello'nun etkin kullanımı , takım üyeleri arasındaki iletişimi ve görev şeffaflığını sürdürerek artırmıştır. Bu sayede, herkesin görev durumundan haberdar olması ve olası engellerin erken tespiti sağlanmıştır.
+* **Etkili Takım İçi İletişim:** Sprin-2'nin başlangıcında Google Meet üzerinden yaptığımız toplantı , arada WhatsApp grubu üzerinden günlük bilgilendirme ve Trello'nun etkin kullanımı , takım üyeleri arasındaki iletişimi ve görev şeffaflığını sürdürerek artırmıştır. Bu sayede, herkesin görev durumundan haberdar olması ve olası engellerin erken tespiti sağlanmıştır.
 
 * **Net Hedef Belirleme ve Ulaşma:** Sprint başında belirlenen 450 puanlık hedefe yönelik önemli ilerlemeler kaydedilmesi, takımın motivasyonunu yüksek tutmuş ve artan karmaşıklıktaki işleri tamamlama kapasitesini göstermiştir.
 
