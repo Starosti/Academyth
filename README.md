@@ -238,6 +238,8 @@ Sprint 1 için belirlenen 300 puanlık hedefe ulaşılmıştır. Bu, takımın s
 
  <details>
     <summary><h3>UI</h3></summary>
+<li> Arayüz genel olarak tamamlandı . Kalan kısımları Sprint-3'te tamamlanmasına karar verildi .
+  
 https://drive.google.com/file/d/1VidCxATbh4R5nJMlZNwXsPWUtdy3b4kK/view?usp=drivesdk
 
 
