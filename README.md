@@ -238,7 +238,7 @@ Sprint 1 için belirlenen 300 puanlık hedefe ulaşılmıştır. Bu, takımın s
 
  <details>
     <summary><h3>UI</h3></summary>
-
+https://drive.google.com/file/d/1VidCxATbh4R5nJMlZNwXsPWUtdy3b4kK/view?usp=drivesdk
 
 
   </details>
@@ -251,9 +251,9 @@ Sprint 1 için belirlenen 300 puanlık hedefe ulaşılmıştır. Bu, takımın s
 
 <details>
     <summary><h3>NLP</h3></summary>
-# NLP File Preprocess 
   
-https://drive.google.com/file/d/1O6db_c5NujB_UmNlFLq3TRe6ABElreft/view?usp=drivesdk
+# NLP File Preprocess 
+  https://drive.google.com/file/d/1O6db_c5NujB_UmNlFLq3TRe6ABElreft/view?usp=drivesdk
 
 # NLP Flow Chart
 
