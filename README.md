@@ -127,7 +127,7 @@ https://trello.com/b/esRn5hb3
 
 
 
-**Sprint Notları:**
+**Sprint Notları**
 
 * UI tasarımlarında **sade ve işlevsel bir arayüz** kullanılmasına karar verildi.
 * Proje yönetim aracı olarak **Trello** kullanılmasına karar verildi.
@@ -284,7 +284,7 @@ https://drive.google.com/file/d/1VidCxATbh4R5nJMlZNwXsPWUtdy3b4kK/view?usp=drive
 **Sprint Hedefi:** Ürünün temel işlevselliği olan NLP tabanlı otomatik soru üretim sisteminin tasarımını tamamlamak, doküman ön işleme ve anahtar kelime seçimi mekanizmalarını geliştirmek ve kullanıcı arayüzünün genel yapısını tamamlayarak ürünün temel kullanılabilirliğini sağlamak.
 
 
-**Sprint Notları:**
+**Sprint Notları**
 
 * NLP ile otomatik soru üretim sisteminin tasarımı başarıyla tamamlandı.
 * Yüklenen dokümanlar üzerinde ön işleme adımları belirlendi ve uygulandı.
