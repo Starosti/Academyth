@@ -6,6 +6,9 @@ import os
 from docx import Document # python-docx kütüphanesi için
 import io
 import json
+import threading
+import time
+import requests
 
 app = Flask(__name__)
 CORS(app) # Frontend'den gelen istekleri kabul etmek için CORS'u etkinleştirin
@@ -13,7 +16,7 @@ CORS(app) # Frontend'den gelen istekleri kabul etmek için CORS'u etkinleştirin
 # Gemini API anahtarınızı buraya ekleyin veya ortam değişkenlerinden alın
 # genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
 # Şimdilik boş bırakıyoruz, Canvas ortamı otomatik sağlayacak
-genai.configure(api_key="AIzaSyAphmOMnliaNWZPXXnU6voiy-mWoWj0MFw")
+genai.configure(api_key="AIzaSyA0GYAJdB3hr52rJh0PGEIKocqsIj5qH-k")
 
 
 
@@ -48,8 +51,6 @@ def process_document_content(file_type, file_content_bytes):
             return None
     else:
         return None
-
-
 
 # Bu endpoint, frontend'den gelen metin içeriği ve zorluk seviyesine göre sorular üretir.
 # Frontend'den bu adrese ('/generate_quiz') bir POST isteği gönderilmelidir.
@@ -191,8 +192,53 @@ def upload_document():
 def index():
     return jsonify({'message': 'API çalışıyor. /upload ile dosya yükleyin, /generate_quiz ile soru oluşturun.'})
 
+def send_quiz_request(local_file_path, difficulty="kolay"):
+    # Sunucunun tam açılması için biraz bekle
+    time.sleep(3)
+
+    with open(local_file_path, "rb") as f:
+        file_bytes = f.read()
+
+    if local_file_path.endswith(".pdf"):
+        file_type = "application/pdf"
+    elif local_file_path.endswith(".docx"):
+        file_type = "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    else:
+        raise Exception("Desteklenmeyen dosya formatı.")
+
+    text = process_document_content(file_type, file_bytes)
+    if not text:
+        raise Exception("Dosya okunamadı veya boş içerik.")
+
+    response = requests.post(
+        "http://127.0.0.1:5000/generate_quiz",
+        json={
+            "documentContent": text,
+            "difficulty": difficulty
+        }
+    )
+
+    filename = os.path.basename(local_file_path)
+    base_name = os.path.splitext(filename)[0]
+    save_dir = "questions"
+    os.makedirs(save_dir, exist_ok=True)
+    save_path = os.path.join(save_dir, base_name + ".json")
+
+    if response.status_code == 200:
+        with open(save_path, "w", encoding="utf-8") as f:
+            f.write(response.text)
+        print(f"✅ Soru-cevaplar {save_path} dosyasına kaydedildi.")
+    else:
+        print(f"❌ API isteği başarısız oldu. Kod: {response.status_code} | Mesaj: {response.text}")
+
+def start_flask():
+    app.run(debug=False, use_reloader=False, port=5000)
+
 if __name__ == '__main__':
-    # Flask uygulamasını çalıştırmak için: python your_file_name.py
-    # Daha sonra tarayıcınızda http://127.0.0.1:5000/ adresine gidebilirsiniz.
-    # Ancak bu sadece API endpoint'idir, doğrudan bir web sayfası göstermez.
-    app.run(debug=True, port=5000)
+    t = threading.Thread(target=start_flask)
+    t.daemon = True
+    t.start()
+
+    local_file_path = "./data/01.FundamentalsofElectricityandElectronics.pdf"
+    difficulty = "zor"
+    send_quiz_request(local_file_path, difficulty)
