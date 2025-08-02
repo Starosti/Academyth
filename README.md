@@ -372,3 +372,54 @@ Sprint 1 için belirlenen 300 puanlık hedefe ulaşılmıştır. Bu, takımın s
 
 
 
+<details>
+  <summary><h1>Sprint 3</h1></summary>
+
+  <!-- Küçük açılır başlıklar -->
+
+  
+
+  <details>
+    <summary><h3>Project Management</h3></summary>
+
+
+![1754146756872915020081305793178](https://github.com/user-attachments/assets/ab2d34b3-a7cf-44bd-a3b1-40f6707f385a)
+
+
+  </details>
+
+
+
+
+  <details>
+    <summary><h3>Burndown Chart</h3></summary>
+
+
+<img width="2379" height="1180" alt="17541476732586371543894788833452" src="https://github.com/user-attachments/assets/d15ab67d-9a61-423f-b89e-8bdb32f68021" />
+
+
+  </details>
+
+
+
+ <details>
+    <summary><h3>UI</h3></summary>
+<li> Arayüzün Sprint-3'e bırakılan kısımları tamamlandı .
+  
+
+  </details>
+
+
+
+<details>
+    <summary><h3>Toplantılar</h3></summary>
+<li> İki adet genel toplantı ve aralarda ilerlemelerin takibi için ara toplantılar yapıldı.
+
+
+
+</details>
+
+
+
+
+
