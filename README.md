@@ -506,7 +506,7 @@ Bu sprint, **Academyth** projesinin güzel bir finalle tamamlandığını göste
 
 <details>
   <summary><h3>Tech Tree<h3></summary>
-    ![Technologies Used](https://github.com/user-attachments/assets/67fe6c19-d90f-42da-ab01-559efd759ef7)
+    <img width="1920" height="1080" alt="17541476732586371543894788833452" src="https://github.com/user-attachments/assets/67fe6c19-d90f-42da-ab01-559efd759ef7" />
 </details>
 
 
