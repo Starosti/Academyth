@@ -494,7 +494,20 @@ Sprint-3 için belirlenen 450 puanlık hedefe ulaşılmıştır. Bu, takımın s
 
 
 **Projenin Geleceği ve Potansiyeli**
-Gelecek sprintler için planlanan "Ejderha savaşı" temalı oyunlaştırma sistemi ve kullanıcı ilerleme takibi gibi özellikler, bu projenin sadece bir başlangıç olduğunu gösteriyor. Temeli bu kadar sağlam atılmış bir ürün, ilerleyen aşamalarda kolaylıkla ölçeklenebilir ve zenginleştirilebilir.
+* 🎯 Oyunun platform bağımsız çalışabilirliği sağlanacak.
+İlk hedeflerimizden biri, geliştirdiğimiz oyunun farklı işletim sistemlerinde ve cihazlarda sorunsuz çalışmasını sağlamak. Böylece kullanıcılar ister bilgisayardan ister mobil cihazlardan rahatça erişebilecek. Bu sayede erişilebilirlik artırılarak daha geniş bir kullanıcı kitlesine ulaşılması hedefleniyor.
+* 🧩Oyun deneyimi yapay zekâ ile zenginleştirilecek.
+Gelecekte, kullanıcıların öğrenme stilini analiz eden ve buna göre yönlendirmeler yapan yapay zekâ destekli sistemler entegre edilmesi planlanıyor. Böylece kullanıcıya özel ipuçları veya zorluk derecesi sunularak etkileşim daha da güçlendirilecek.
+* 🧠 Veritabanı bağlantısı ile kişiselleştirme yapılacak.
+Kullanıcıların oyun içi tercihleri, cevapları ve ilerlemeleri bir veritabanına kaydedilerek kişiselleştirilmiş bir deneyim sunulacak. Böylece sistem zamanla kullanıcının zayıf olduğu konuları analiz ederek ona özel sorular ve geri bildirimler sunabilecek.
+* 📂 Farklı Dosya Formatlarıyla Uyum:
+Şu anda PDF ve Word tabanlı çalışan sistem, uzun vadede PowerPoint ve HTML tabanlı web sayfalarından da içerik alabilecek şekilde geliştirilecektir. Bu sayede kullanıcılar daha geniş bir kaynak havuzunu sisteme dahil edebilecek, öğrenme materyalleri çeşitlenecektir.
+* 🌐 Çok Dilli Destek:
+Uygulamanın farklı dillerde kullanılabilir olması, global erişimi artıracak önemli bir adımdır. İngilizce’ye ek olarak Türkçe, Almanca gibi dillerde de içerik sunularak hem yabancı kullanıcılar kazanılacak hem de çok dilli eğitim kurumlarında kullanım kolaylığı sağlanacaktır.
+* 🏫 Kurumsal Eğitim Ortamlarına Uyum:
+Uygulamanın okul ve etüt merkezi gibi kurumlar tarafından kullanılabilirliği artırılacaktır. Kurumlar kendi içeriklerini sisteme yükleyebilecek, öğrenci hesaplarını yönetebilecek ve gelişimlerini takip edebilecektir. Bu yapı, eğitimin dijitalleşmesi sürecine katkı sunarken farklı kurumsal ihtiyaçlara da cevap verecektir.
+* 🎮 Oyunlaştırma Unsurlarının Zenginleştirilmesi:
+Kullanıcıların motivasyonunu ve etkileşimini artırmak adına oyun içi ödüllendirme sistemleri geliştirilecektir. Puan kazanma, rozet toplama ve sıralama panosu gibi mekanizmalarla oyuncular hem gelişimlerini takip edebilecek hem de diğer kullanıcılarla rekabet edebilecekler. Bu sayede öğrenme süreci daha eğlenceli ve sürdürülebilir hale getirilecektir.
 
 **SONUÇ**
 
