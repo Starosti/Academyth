@@ -327,7 +327,7 @@ https://github.com/user-attachments/assets/df8a1630-2853-4806-8dd1-d5315dbc5661
 
 
 **Puan Hedefi ve Gerçekleşme:**
-Sprint 1 için belirlenen 300 puanlık hedefe ulaşılmıştır. Bu, takımın sprint planlama yeteneğinin ve iş tamamlama kapasitesinin başarılı olduğunu göstermektedir.
+Sprint-2 için belirlenen 450 puanlık hedefe ulaşılmıştır. Bu, takımın sprint planlama yeteneğinin ve iş tamamlama kapasitesinin başarılı olduğunu göstermektedir.
 
 
 
@@ -377,13 +377,24 @@ Sprint 1 için belirlenen 300 puanlık hedefe ulaşılmıştır. Bu, takımın s
 
   <!-- Küçük açılır başlıklar -->
 
+
+
+  <details>
+    <summary><h3>App Screenshots</h3></summary>
+
+
+<img width="1362" height="504" alt="image" src="https://github.com/user-attachments/assets/bc06b67c-3856-49e5-8977-99ed48f6bab2" />
+
+
+  </details>
+
   
 
   <details>
     <summary><h3>Project Management</h3></summary>
 
 
-![1754146756872915020081305793178](https://github.com/user-attachments/assets/ab2d34b3-a7cf-44bd-a3b1-40f6707f385a)
+<img width="1362" height="504" alt="image" src="https://github.com/user-attachments/assets/bc06b67c-3856-49e5-8977-99ed48f6bab2" />
 
 
   </details>
@@ -402,24 +413,97 @@ Sprint 1 için belirlenen 300 puanlık hedefe ulaşılmıştır. Bu, takımın s
 
 
 
- <details>
-    <summary><h3>UI</h3></summary>
-<li> Arayüzün Sprint-3'e bırakılan kısımları tamamlandı .
-  
-
-  </details>
-
-
-
 <details>
     <summary><h3>Toplantılar</h3></summary>
-<li> İki adet genel toplantı ve aralarda ilerlemelerin takibi için ara toplantılar yapıldı.
+<li> Toplantılarımzı Google Meet üzerinden yaptık. Üç adet genel toplantı ve aralarda ilerlemelerin takibi için kişiler arası ara toplantılar yapıldı . Son olarak da ürün teslim formunu  doldurmak için toplanıldı .
 
+
+![unnamed](https://github.com/user-attachments/assets/b0dfc844-88e9-4eb9-bf51-9fe5e5560024)
+
+![unnamed](https://github.com/user-attachments/assets/dcd297c7-9f54-41dd-9e3c-01814de1630c)
 
 
 </details>
 
 
+
+
+
+
+
+
+### Tarih Aralığı
+***21 Temmuz*** - ***3 Ağustos***
+
+
+**Sprint Hedefi:**Ürünün temel işlevselliği olan NLP tabanlı otomatik soru üretim sisteminin uçtan uca entegrasyonunu tamamlamak, API'leri test etmek ve projeyi teslim edilebilir duruma getirmek.
+
+**Sprint Notları**
+
+* Projenin kalbi olan otomatik soru üretim mekanizması başarıyla tamamlanmış ve canlı testler için hazır hale getirilmiştir.
+
+* Geliştirilen mekanizmanın işlevselliği, Postman aracılığıyla yapılan testlerle doğrulanmıştır.
+
+* Sprint 2'den gelen tasarım ve ön işleme adımları, nihai kod entegrasyonu ile birleştirilmiştir.
+
+*  *Backlog*da yer alan özellikler, ürünün temel işlevselliği tamamlandığı için sonraki aşamalara bırakılmıştır.
+
+* Bu sprint, projenin tamamlanarak, sunuma ve teslimata hazır hale getirilmesine odaklanmıştır.
+
+**Sprint İçinde Tamamlanması Beklenen Puan:** 450 Puan
+
+**Puan Tamamlama Mantığı:** Toplamda 1200 puanlık bir genel proje hedefi belirlenmiştir. Sprint-1'de 300 puanlık ve Sprint-2'de 450 puanlık bir hedef belirlenmiş ve bunlar başarıyla tamamlanmıştır. Sprint-3'e verilen 450 puanlık hedef de tamamlanmış bulunuyoruz . Sonuç olarak projemizin başında belirlediğimiz 1200 puan hedefini başarıyla tamamlamış olduk .  
+
+**Sprint Gözden Geçirilmesi (Sprint Review)**
+
+**Katılımcılar:** Çağan Atan (Product Owner), Aydanur Tokmak (Scrum Master), Ömer Faruk Karakurt (Developer), Hümeyra Öztürk (Developer)
+
+**Genel Değerlendirme:** Sprint 3, projenin son aşaması olması nedeniyle büyük bir başarıyla tamamlanmıştır. Ekip, önceki sprintlerde atılan sağlam temellerin üzerine, projenin en kritik ve merkezi özelliği olan otomatik soru üretim mekanizmasını başarıyla inşa etmiş ve bu mekanizmayı fonksiyonel testlerden geçirmiştir. Bu sprint'teki başarı, projenin sadece bir konsept olmaktan çıkıp, işlevsel ve somut bir ürüne dönüştüğünü kanıtlamaktadır. Projenin ana vaadi olan içeriklerden otomatik soru üretme yeteneği, artık tam olarak hayata geçirilmiştir.
+
+
+
+**Tamamlanan Ürün Artımları**
+* **Soru Üretim Mekanizmasının Tamamlanması ve Entegrasyonu:** Projenin temelini oluşturan NLP tabanlı otomatik soru üretim sistemi, teorik tasarım aşamasından, çalışan ve işlevsel bir kod bütününe evrilmiştir. Bu, projenin en büyük vaadinin başarıyla yerine getirildiğini göstermektedir.
+
+* **Postman ile Test Süreçlerinin Tamamlanması:** Geliştirilen soru üretim API'si, Postman kullanılarak kapsamlı bir şekilde test edilmiştir. Bu testler, sistemin stabil ve doğru çıktılar verdiğini kanıtlamış, ürünün kalitesini ve güvenilirliğini garanti altına almıştır. Bu adım, projenin bir prototip değil, teslimata hazır bir ürün olduğunu kanıtlayan en önemli göstergedir.
+
+* **Uçtan Uca Entegrasyon:** Sprint 1 ve 2'de tamamlanan doküman ön işleme, anahtar kelime seçimi ve genel arayüz gibi parçalar, bu sprint'te geliştirilen soru üretim mekanizmasıyla birleştirilmiştir. Böylece, kullanıcıların bir doküman yükleyip, sistemin otomatik olarak soru üretme sürecini uçtan uca deneyimleyebileceği bir yapı oluşturulmuştur.
+
+
+
+
+**Puan Hedefi ve Gerçekleşme:**
+Sprint-3 için belirlenen 450 puanlık hedefe ulaşılmıştır. Bu, takımın sprint planlama yeteneğinin ve iş tamamlama kapasitesinin başarılı olduğunu göstermektedir.
+
+
+
+**Sprint Retrospektifi**
+
+**Tarih:** 3 Ağustos 2025
+
+* **Ekibin İlk İki Sprintteki Başarısı:** Sprint-1ve Sprint-2'den aldığımız puan bu sprintteki çalışmalarımız  için büyük bir motivasyon oldu .
+
+* **Etkili Takım İçi İletişim:** Sprin-3'ün başlangıcında Google Meet üzerinden yaptığımız
+* Sprint-2 değerlendirme toplantısı , aralarda WhatsApp grubu üzerinden günlük bilgilendirmeler ve Trello'nun etkin kullanımı , takım üyeleri arasındaki iletişimi ve görev şeffaflığını sürdürerek artırmıştır. Bu sayede, herkesin görev durumundan haberdar olması ve olası engellerin erken tespiti sağlanmıştır.
+
+* **Net Hedef Belirleme ve Ulaşma:** Sprint başında belirlenen 450 puanlık hedefe yönelik önemli ilerlemeler kaydedilmesi, takımın motivasyonunu yüksek tutmuş ve artan karmaşıklıktaki işleri tamamlama kapasitesini göstermiştir.
+
+* **Kapsamlı Teknik Gelişimler:** Projenin temelini oluşturan otomatik soru üretim mekanizmasının geliştirilmesi, kodlanması ve uçtan uca entegrasyonu bu sprint'te başarıyla tamamlanmıştır. Yapılan bu kritik çalışmalar sayesinde, teorik tasarım aşaması somut ve işlevsel bir ürüne dönüşmüştür. Postman ile gerçekleştirilen kapsamlı API testleri, sistemin kararlı ve hatasız bir şekilde çalıştığını kanıtlayarak, projenin teknik olgunluğunu ve teslimata hazır olduğunu pekiştirmiştir. Bu sprint projenin teknik olarak en zorlu aynı zamanda en tatmin edici aşaması olmuştur.
+
+* **Rol Dağılımının Netliği:** Takım rollerinin (Product Owner, Scrum Master, Developer) net bir şekilde tanımlanmış olması ve her üyenin kendi sorumluluk alanında çalışmaya devam etmesi, verimliliğin sürdürülmesine katkı sağlamıştır.
+
+
+**Projenin Geleceği ve Potansiyeli**
+Gelecek sprintler için planlanan "Ejderha savaşı" temalı oyunlaştırma sistemi ve kullanıcı ilerleme takibi gibi özellikler, bu projenin sadece bir başlangıç olduğunu gösteriyor. Temeli bu kadar sağlam atılmış bir ürün, ilerleyen aşamalarda kolaylıkla ölçeklenebilir ve zenginleştirilebilir.
+
+**SONUÇ**
+
+Bu sprint, **Academyth** projesinin güzel bir finalle tamamlandığını göstermektedir. Proje, bir yazılım geliştirme ve proje yönetimi sürecinin her aşamasını başarıyla yöneterek, teknik karmaşıklıkları aşmış ve kullanıcı odaklı bir vizyonu kaybetmemiştir. Sprint 3'ün bu son dokunuşuyla, **Academyth** sadece bir fikir olmaktan çıkmış, parlak bir geleceği olan, somut ve işlevsel bir ürüne dönüşmüştür.
+
+</details>
+
+
+</details>
 
 
 
