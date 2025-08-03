@@ -68,6 +68,18 @@ Temel Özellikler:
 https://trello.com/b/esRn5hb3
 
 
+
+<details>
+    <summary><h1>Ekran Görüntüleri</h1></summary>
+  <img width="1869" height="1000" alt="Screenshot 2025-08-03 at 18-15-33 ACADEMYTH - Forge Your Mind Face the Dragon" src="https://github.com/user-attachments/assets/553097b5-cb1b-46bb-8de6-ecba05b79aba" />
+<img width="1869" height="1000" alt="Screenshot 2025-08-03 at 18-15-47 ACADEMYTH - Forge Your Mind Face the Dragon" src="https://github.com/user-attachments/assets/d696d864-b270-425c-9429-411cfb5f02ff" />
+<img width="1869" height="1000" alt="Screenshot 2025-08-03 at 18-15-55 ACADEMYTH - Forge Your Mind Face the Dragon" src="https://github.com/user-attachments/assets/59f3112a-7a83-4cda-9163-6904912847ee" />
+<img width="1852" height="1000" alt="Screenshot 2025-08-03 at 18-16-54 ACADEMYTH - Forge Your Mind Face the Dragon" src="https://github.com/user-attachments/assets/19f75ff3-d679-4caf-9086-a8dd2d15c42b" />
+<img width="1852" height="1000" alt="Screenshot 2025-08-03 at 18-17-32 ACADEMYTH - Forge Your Mind Face the Dragon" src="https://github.com/user-attachments/assets/f06ce3aa-64ad-4160-b830-8a3a4b4eb395" />
+<img width="1852" height="1000" alt="Screenshot 2025-08-03 at 18-17-40 ACADEMYTH - Forge Your Mind Face the Dragon" src="https://github.com/user-attachments/assets/222ea161-6c62-49e8-8ae9-95bf63b9a950" />
+
+</details>
+
 <details>
   <summary><h1>Sprint 1</h1></summary>
 
