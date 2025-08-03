@@ -383,7 +383,6 @@ Sprint-2 için belirlenen 450 puanlık hedefe ulaşılmıştır. Bu, takımın s
     <summary><h3>App Screenshots</h3></summary>
 
 
-<img width="1362" height="504" alt="image" src="https://github.com/user-attachments/assets/bc06b67c-3856-49e5-8977-99ed48f6bab2" />
 
 
   </details>
@@ -436,7 +435,7 @@ Sprint-2 için belirlenen 450 puanlık hedefe ulaşılmıştır. Bu, takımın s
 ***21 Temmuz*** - ***3 Ağustos***
 
 
-**Sprint Hedefi:**Ürünün temel işlevselliği olan NLP tabanlı otomatik soru üretim sisteminin uçtan uca entegrasyonunu tamamlamak, API'leri test etmek ve projeyi teslim edilebilir duruma getirmek.
+**Sprint Hedefi:** Ürünün temel işlevselliği olan NLP tabanlı otomatik soru üretim sisteminin uçtan uca entegrasyonunu tamamlamak, API'leri test etmek ve projeyi teslim edilebilir duruma getirmek.
 
 **Sprint Notları**
 
@@ -504,6 +503,11 @@ Bu sprint, **Academyth** projesinin güzel bir finalle tamamlandığını göste
 
 
 </details>
+
+<details>
+  <summary><h3>Tech Tree<h3></summary>
+</details>
+
 
 
 
