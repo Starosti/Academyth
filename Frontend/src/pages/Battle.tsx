@@ -17,11 +17,23 @@ const GAME_CONFIG = {
   MAX_HP: 100,
 };
 
+interface AnswerOption {
+  text: string;
+  isCorrect: boolean;
+  rationale: string;
+}
+
+interface APIQuestion {
+  question: string;
+  answerOptions: AnswerOption[];
+}
+
 interface Question {
   id: number;
   question: string;
   options: string[];
   correctAnswer: number;
+  originalOrder?: number[]; // Track original order for debugging
 }
 
 const sampleQuestions: Question[] = [
@@ -75,6 +87,67 @@ const sampleQuestions: Question[] = [
 const Battle: React.FC = () => {
   const navigate = useNavigate();
   const location = useLocation();
+  const {
+    questions: fetchedQuestions,
+    difficulty,
+    fileName,
+  } = location.state || {};
+
+  // Convert API questions to the format expected by the UI
+  const convertAPIQuestions = (apiQuestions: APIQuestion[]): Question[] => {
+    return apiQuestions.map((apiQ, index) => {
+      // Create array of indices for shuffling
+      const originalIndices = apiQ.answerOptions.map((_, i) => i);
+      const shuffledIndices = [...originalIndices].sort(
+        () => Math.random() - 0.5
+      );
+
+      // Find the original correct answer index
+      const originalCorrectIndex = apiQ.answerOptions.findIndex(
+        (option) => option.isCorrect
+      );
+
+      // Find where the correct answer ended up after shuffling
+      const newCorrectIndex = shuffledIndices.indexOf(originalCorrectIndex);
+
+      return {
+        id: index + 1,
+        question: apiQ.question,
+        options: shuffledIndices.map((i) => apiQ.answerOptions[i].text),
+        correctAnswer: newCorrectIndex,
+        originalOrder: shuffledIndices,
+      };
+    });
+  };
+
+  // Function to shuffle sample questions
+  const shuffleSampleQuestions = (questions: Question[]): Question[] => {
+    return questions.map((q) => {
+      // Create array of indices for shuffling
+      const originalIndices = q.options.map((_, i) => i);
+      const shuffledIndices = [...originalIndices].sort(
+        () => Math.random() - 0.5
+      );
+
+      // Find where the correct answer ended up after shuffling
+      const newCorrectIndex = shuffledIndices.indexOf(q.correctAnswer);
+
+      return {
+        ...q,
+        options: shuffledIndices.map((i) => q.options[i]),
+        correctAnswer: newCorrectIndex,
+        originalOrder: shuffledIndices,
+      };
+    });
+  };
+
+  const [questions] = useState<Question[]>(() => {
+    if (fetchedQuestions && fetchedQuestions.length > 0) {
+      return convertAPIQuestions(fetchedQuestions);
+    }
+    return shuffleSampleQuestions(sampleQuestions); // Shuffle sample questions too
+  });
+
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [playerHP, setPlayerHP] = useState(GAME_CONFIG.INITIAL_PLAYER_HP);
@@ -85,13 +158,24 @@ const Battle: React.FC = () => {
   const [showFeedback, setShowFeedback] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
 
+  // Time tracking
+  const [startTime] = useState(Date.now());
+  const [totalTimeSpent, setTotalTimeSpent] = useState(0);
+
   // Dragon animation states
   const [dragonTakingDamage, setDragonTakingDamage] = useState(false);
   const [dragonHealing, setDragonHealing] = useState(false);
   const [dragonAttacking, setDragonAttacking] = useState(false);
 
+  // Redirect if no questions available
+  useEffect(() => {
+    if (questions.length === 0) {
+      navigate("/upload");
+    }
+  }, [questions.length, navigate]);
+
   const handleSubmit = useCallback(() => {
-    const currentQ = sampleQuestions[currentQuestion];
+    const currentQ = questions[currentQuestion];
     const correct = selectedAnswer === currentQ.correctAnswer;
     setIsCorrect(correct);
     setShowFeedback(true);
@@ -104,15 +188,20 @@ const Battle: React.FC = () => {
     newAnswerResults[currentQuestion] = correct;
     setAnswerResults(newAnswerResults);
 
+    let newDragonHP = dragonHP;
+    let newPlayerHP = playerHP;
+
     if (correct) {
-      setDragonHP(Math.max(0, dragonHP - GAME_CONFIG.DAMAGE_PER_QUESTION));
+      newDragonHP = Math.max(0, dragonHP - GAME_CONFIG.DAMAGE_PER_QUESTION);
+      setDragonHP(newDragonHP);
       setDragonTakingDamage(true);
       setTimeout(
         () => setDragonTakingDamage(false),
         GAME_CONFIG.ANIMATION_DURATION
       );
     } else {
-      setPlayerHP(Math.max(0, playerHP - GAME_CONFIG.DAMAGE_PER_QUESTION));
+      newPlayerHP = Math.max(0, playerHP - GAME_CONFIG.DAMAGE_PER_QUESTION);
+      setPlayerHP(newPlayerHP);
       setDragonAttacking(true);
       setTimeout(
         () => setDragonAttacking(false),
@@ -121,26 +210,62 @@ const Battle: React.FC = () => {
     }
 
     setTimeout(() => {
-      if (currentQuestion < sampleQuestions.length - 1) {
+      // Check if battle should end due to HP reaching 0 or all questions completed
+      const battleEnded =
+        newPlayerHP <= 0 ||
+        newDragonHP <= 0 ||
+        currentQuestion >= questions.length - 1;
+
+      if (!battleEnded) {
         setCurrentQuestion(currentQuestion + 1);
         setSelectedAnswer(null);
         setTimeLeft(GAME_CONFIG.QUESTION_TIME_LIMIT);
         setShowFeedback(false);
       } else {
-        // Battle complete
+        // Battle complete - calculate total time spent
+        const endTime = Date.now();
+        const timeSpentInSeconds = Math.round((endTime - startTime) / 1000);
+
+        console.log("Battle completed:", {
+          startTime: new Date(startTime).toLocaleTimeString(),
+          endTime: new Date(endTime).toLocaleTimeString(),
+          timeSpentInSeconds,
+          battleEndReason:
+            newPlayerHP <= 0
+              ? "Player defeated"
+              : newDragonHP <= 0
+              ? "Dragon defeated"
+              : "All questions completed",
+        });
+
         navigate("/summary", {
           state: {
             answers: newAnswers,
-            questions: sampleQuestions,
-            playerHP,
-            dragonHP: correct
-              ? Math.max(0, dragonHP - GAME_CONFIG.DAMAGE_PER_QUESTION)
-              : dragonHP,
+            questions: questions,
+            playerHP: newPlayerHP,
+            dragonHP: newDragonHP,
+            difficulty,
+            fileName,
+            originalAPIQuestions: fetchedQuestions,
+            timeSpent: timeSpentInSeconds,
           },
         });
       }
     }, GAME_CONFIG.FEEDBACK_DISPLAY_DURATION);
-  }, [currentQuestion, selectedAnswer, answers, dragonHP, playerHP, navigate]);
+  }, [
+    currentQuestion,
+    selectedAnswer,
+    answers,
+    answerResults,
+    dragonHP,
+    playerHP,
+    navigate,
+    questions,
+    difficulty,
+    fileName,
+    fetchedQuestions,
+    startTime,
+  ]);
 
   // Timer effect
   useEffect(() => {
@@ -155,7 +280,7 @@ const Battle: React.FC = () => {
     }
   }, [timeLeft, showFeedback, handleSubmit]);
 
-  const progress = ((currentQuestion + 1) / sampleQuestions.length) * 100;
+  const progress = ((currentQuestion + 1) / questions.length) * 100;
 
   return (
     <Layout>
@@ -213,7 +338,7 @@ const Battle: React.FC = () => {
                 {/* Question Header */}
                 <div className="flex items-center justify-between mb-6">
                   <h2 className="text-lg font-cinzel font-semibold text-primary">
-                    Question {currentQuestion + 1}/{sampleQuestions.length}
+                    Question {currentQuestion + 1}/{questions.length}
                   </h2>
                   <div className="text-xl flex items-center space-x-2 text-muted-foreground">
                     <span className="font-crimson">{timeLeft}s</span>
@@ -223,42 +348,40 @@ const Battle: React.FC = () => {
 
                 {/* Question */}
                 <h3 className="text-xl font-crimson font-medium mb-6 text-foreground leading-relaxed">
-                  {sampleQuestions[currentQuestion].question}
+                  {questions[currentQuestion].question}
                 </h3>
 
                 {/* Options */}
                 <div className="space-y-3 mb-6">
-                  {sampleQuestions[currentQuestion].options.map(
-                    (option, index) => (
-                      <label
-                        key={index}
-                        className={`flex items-center space-x-3 p-4 rounded-lg border-2 cursor-pointer transition-all ${
+                  {questions[currentQuestion].options.map((option, index) => (
+                    <label
+                      key={index}
+                      className={`flex items-center space-x-3 p-4 rounded-lg border-2 cursor-pointer transition-all ${
+                        selectedAnswer === index
+                          ? "border-primary/50 bg-primary/5"
+                          : "border-border/30 bg-muted/10 hover:border-border/50"
+                      } ${showFeedback ? "pointer-events-none" : ""}`}
+                    >
+                      <input
+                        type="radio"
+                        name="answer"
+                        value={index}
+                        checked={selectedAnswer === index}
+                        onChange={() => setSelectedAnswer(index)}
+                        className="sr-only"
+                      />
+                      <div
+                        className={`w-4 h-4 rounded-full border-2 transition-colors ${
                           selectedAnswer === index
-                            ? "border-primary/50 bg-primary/5"
-                            : "border-border/30 bg-muted/10 hover:border-border/50"
-                        } ${showFeedback ? "pointer-events-none" : ""}`}
-                      >
-                        <input
-                          type="radio"
-                          name="answer"
-                          value={index}
-                          checked={selectedAnswer === index}
-                          onChange={() => setSelectedAnswer(index)}
-                          className="sr-only"
-                        />
-                        <div
-                          className={`w-4 h-4 rounded-full border-2 transition-colors ${
-                            selectedAnswer === index
-                              ? "border-primary bg-primary"
-                              : "border-border bg-background"
-                          }`}
-                        />
-                        <span className="font-crimson text-foreground">
-                          {option}
-                        </span>
-                      </label>
-                    )
-                  )}
+                            ? "border-primary bg-primary"
+                            : "border-border bg-background"
+                        }`}
+                      />
+                      <span className="font-crimson text-foreground">
+                        {option}
+                      </span>
+                    </label>
+                  ))}
                 </div>
 
                 {/* Submit Button */}
@@ -294,7 +417,7 @@ const Battle: React.FC = () => {
               <div className="mt-6">
                 <div className="flex flex-col gap-2 justify-center items-center text-sm font-crimson text-muted-foreground mb-2">
                   <div className="flex justify-center items-center space-x-2">
-                    {sampleQuestions.map((_, index) => (
+                    {questions.map((_, index) => (
                       <div
                         key={index}
                         className={`w-4 h-4 rounded-full border-2 transition-all duration-300 ${
@@ -310,7 +433,7 @@ const Battle: React.FC = () => {
                     ))}
                   </div>
                   <span>
-                    {currentQuestion + 1}/{sampleQuestions.length}
+                    {currentQuestion + 1}/{questions.length}
                   </span>
                 </div>
               </div>

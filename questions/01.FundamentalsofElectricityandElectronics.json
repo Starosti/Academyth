@@ -3,250 +3,250 @@
     "answerOptions": [
       {
         "isCorrect": false,
-        "rationale": "Metne göre, elektrik enerjinin üretimi ve iletimiyle ilgilenirken, elektronik akımın hassas kontrolüne odaklanır. Elektronik sadece tüketimle ilgili değildir.",
-        "text": "Elektrik enerjinin üretimi ve iletimiyle ilgilenirken, Elektronik sadece enerjinin tüketimiyle ilgilenir."
+        "rationale": "Metin, elektriğin büyük ölçekli güç iletimi ile ilgili olduğunu ima etse de, bu iki kavram arasındaki temel ayrım elektron akışının kontrol mekanizmasında yatmaktadır.",
+        "text": "Elektrik, büyük ölçekli güç iletimine odaklanırken, elektronik küçük ölçekli sinyal işlemedir."
       },
       {
         "isCorrect": true,
-        "rationale": "Metin, 'elektrik, iletkenlerdeki elektrik yükü akışına odaklanırken, elektronik yarı iletkenlerdeki ve diğer malzemelerdeki elektron akışının kontrolüyle ilgilenir' şeklinde net bir ayrım yapmaktadır.",
-        "text": "Elektrik, iletkenlerdeki yüklü parçacıkların akışına odaklanırken, Elektronik yarı iletkenlerdeki elektron akışının hassas kontrolüyle ilgilenir."
+        "rationale": "Metinde açıkça belirtildiği üzere, 'Elektrik, iletkenlerdeki elektrik yükü akışına odaklanırken, elektronik yarı iletkenlerdeki ve diğer malzemelerdeki elektron akışını kontrol etmekle ilgilenir.'",
+        "text": "Elektrik, iletkenlerdeki elektron akışıyla ilgilenirken, elektronik yarı iletkenlerdeki elektron akışının kontrolüyle ilgilenir."
       },
       {
         "isCorrect": false,
-        "rationale": "Metinde elektrik ve elektroniğin belirli akım tipleriyle sınırlı olduğuna dair bir bilgi yoktur; her ikisi de farklı bağlamlarda AC ve DC ile ilgilenir.",
-        "text": "Elektrik, yalnızca doğru akım (DC) devreleriyle ilgilenirken, Elektronik yalnızca alternatif akım (AC) devreleriyle ilgilenir."
+        "rationale": "Hem elektrik hem de elektronik enerji üretimi ve dönüşümüyle ilgili alanlardır; bu, aralarındaki en belirgin farkı temsil etmez.",
+        "text": "Elektrik, enerjinin üretimi ve tüketimiyle, elektronik ise enerji dönüşümüyle ilgilidir."
       },
       {
         "isCorrect": false,
-        "rationale": "Metin, elektroniğin 'küçük ölçekli akımlarla hassas devrelerde ilgilenir' der, ancak bunu nano ölçekle sınırlamaz. Elektrik ise sadece büyük ölçekli sistemlerle sınırlı değildir.",
-        "text": "Elektrik, büyük ölçekli güç sistemlerini incelerken, Elektronik sadece nano ölçekli cihazları inceler."
+        "rationale": "Bu ifade yanlıştır; elektronik cihazlar genellikle AC'yi DC'ye dönüştürerek kullanır ve hem elektrik hem de elektronik kavramları her iki akım tipini de kapsar.",
+        "text": "Elektrik, doğru akımla çalışırken, elektronik yalnızca alternatif akımı kullanır."
       }
     ],
-    "question": "Elektrik ve Elektronik arasındaki temel farkı en doğru şekilde açıklayan ifade aşağıdakilerden hangisidir?"
+    "question": "Elektrik ve elektronikteki temel odak noktaları arasındaki en belirgin fark, metne göre nasıl tanımlanır?"
   },
   {
     "answerOptions": [
       {
         "isCorrect": false,
-        "rationale": "Bu ifade metinde doğru olarak belirtilmiştir: 'Çoğu ev elektriği alternatif akımdır (AC) çünkü uzun mesafeli iletim için daha verimlidir.'",
-        "text": "Evlerdeki çoğu priz Alternatif Akım (AC) sağlar çünkü uzun mesafeli iletim için daha verimlidir."
-      },
-      {
-        "isCorrect": false,
-        "rationale": "Bu ifade metinde doğru olarak belirtilmiştir: 'Doğru akım (DC) öncelikle elektronik cihazlarda ve devrelerde kullanılır.'",
-        "text": "Doğru Akım (DC) temel olarak elektronik cihazlarda ve devrelerde kullanılır."
-      },
-      {
-        "isCorrect": false,
-        "rationale": "Bu ifade metinde doğru olarak belirtilmiştir: 'Telefon, dizüstü bilgisayar ve TV gibi birçok elektronik cihaz, güç adaptörleri kullanarak AC'yi dahili olarak DC'ye dönüştürür.'",
-        "text": "Telefon, dizüstü bilgisayar ve TV gibi birçok elektronik cihaz, güç adaptörleri kullanarak AC'yi dahili olarak DC'ye dönüştürür."
+        "rationale": "Metin, AC'nin voltaj seviyeleri veya cihaz devrelerine zarar verme potansiyeli hakkında bilgi vermemektedir. AC, genellikle yüksek voltajda iletilir.",
+        "text": "AC, cihazların içindeki devrelerin zarar görmesini engellemek için daha düşük voltaj sağlar."
       },
       {
         "isCorrect": true,
-        "rationale": "Metne göre, Doğru Akım (DC) 'elektronların tek yönde akması' durumudur, Alternatif Akım (AC) ise 'elektronların ileri geri hareket etmesi' durumudur. Bu seçenekteki bilgi yanlıştır.",
-        "text": "Alternatif Akım (AC) tek yönde akar, Doğru Akım (DC) ise ileri geri hareket eder."
+        "rationale": "Metinde 'Doğru Akım (DC) öncelikle elektronik cihazlarda ve devrelerde kullanılır' denilmektedir. Ayrıca, diyotların AC'yi DC'ye dönüştürdüğü ve güç kaynaklarında kullanıldığı belirtilmiştir, bu da DC'nin hassas elektronik cihazlar için daha uygun ve kararlı bir akım formu olduğunu ima eder.",
+        "text": "DC, elektronik cihazlarda daha kararlı ve tek yönlü bir elektron akışı sağlayarak hassas devreler için daha uygun olduğu için."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Metinde AC'nin uzun mesafeli iletimdeki verimliliğinden bahsedilse de, cihazların soğutma sistemlerini zorladığına dair bir bilgi bulunmamaktadır.",
+        "text": "AC, uzun mesafeli iletim için daha verimli olsa da, cihazların soğutma sistemlerini zorlar."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Güç adaptörleri AC'yi DC'ye dönüştürür, ancak bunu yüksek frekanslı sinyallere dönüştürmek pil şarjı ile ilgili birincil neden değildir. Amaç, cihaza uygun DC gücü sağlamaktır.",
+        "text": "Güç adaptörleri, cihazın pilini hızlı şarj etmek için AC'yi yüksek frekanslı sinyallere dönüştürür."
       }
     ],
-    "question": "Metinde belirtilen bilgilere göre, Alternatif Akım (AC) ve Doğru Akım (DC) ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?"
+    "question": "Evlerde kullanılan elektrik genellikle alternatif akım (AC) olmasına rağmen, akıllı telefonlar gibi birçok elektronik cihaz neden güç adaptörleri aracılığıyla dahili olarak doğru akıma (DC) dönüştürme ihtiyacı duyar?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "Metin, elektriğin doğada var olan bir olgu olduğunu (statik elektrik gibi) ve Thales tarafından keşfedildiğini; ancak elektrik bataryası, yıldırımsavar, ampul ve AC sistemi gibi pratik uygulamaların daha sonra icat edildiğini vurgulamaktadır.",
+        "text": "Elektrik doğal bir fenomen olduğu için sadece gözlemlendi, ancak pratik uygulamaları sonradan icat edildi."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Metin, Thales'in statik elektriği 'keşfettiğini' belirtir, icat ettiğini değil. İcatlar daha sonraki bilim insanları tarafından yapılmıştır.",
+        "text": "Antik Yunan'da Thales'in elektriği icat ettiği, modern dünyada ise sadece geliştirildiği."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Bu ifade, elektriğin icat edilmemiş olmasının nedenini net bir mucidinin olmamasına bağlar ki metnin ana vurgusu bu değildir; daha ziyade, elektriğin temel bir doğal kuvvet olduğu vurgulanır.",
+        "text": "Elektriğin mucidi net bir şekilde belirlenemediği için bu ifade kullanılmıştır."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Tesla ve Edison'un sistemleri icat ettiği doğru olsa da, bu şık 'elektrik icat edilmedi, keşfedildi' ifadesinin arkasındaki genel ayrımı tam olarak açıklamaz.",
+        "text": "Nikola Tesla ve Thomas Edison, elektriği değil, sadece AC ve DC sistemlerini icat ettiler."
+      }
+    ],
+    "question": "Metinde 'Elektrik 'icat edilmedi', aksine keşfedildi' ifadesiyle ne anlatılmak istenmektedir ve bu, elektrik tarihiyle ilgili hangi önemli ayrımı vurgular?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "Metin, bakır gibi metallerin 'mükemmel iletkenler' olduğunu ve akımın kolayca akmasına izin verdiğini belirtir. Kauçuk ve plastik gibi malzemelerin ise 'dirençli' olduğunu ve 'istenmeyen akımın kaçmasını önleyerek güvenliği sağladığını' açıklar.",
+        "text": "Bakır, akımın rahatça akmasını sağlayarak enerjiyi verimli iletirken, kauçuk dışarıya akımı engelleyerek şok riskini azaltır."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Bu özellikler doğru olsa da, kablo seçiminin birincil nedeni metinde belirtilen elektrik iletkenliği ve direnç özellikleriyle ilgili güvenlik amaçlıdır.",
+        "text": "Bakır kabloyu daha hafif yapar, kauçuk ise kablonun esnekliğini artırır."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "İzolasyonun amacı, voltaj seviyesine bakılmaksızın akımın dışarı sızmasını önlemektir. Kauçuk sadece düşük voltajlar için değil, geniş bir yelpazede yalıtım sağlar.",
+        "text": "Bakır, yüksek voltajları taşırken, kauçuk düşük voltajları izole etmek için kullanılır."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Bakırın iyi bir ısı iletkeni olması ve yalıtkanların ısınmayı önlemesi doğru olabilir ancak metindeki bağlamda kablo malzemesi seçiminin birincil nedeni direnç ve elektrik güvenliğiyle ilişkilidir.",
+        "text": "Bakır ısıyı iyi dağıtır, kauçuk ise kablonun aşırı ısınmasını önler."
+      }
+    ],
+    "question": "Metinde direncin tanımı ve bazı malzemelerin direnç seviyeleri verilmiştir. Buna göre, elektrik güvenliği açısından bir elektrikli aletin kablosunda neden bakır iletkenler kullanılırken, dış kaplamasında kauçuk veya plastik gibi malzemeler tercih edilir?"
   },
   {
     "answerOptions": [
       {
         "isCorrect": false,
-        "rationale": "Metin, 'Antik Yunan'da Miletli Thales statik elektriği keşfetti' bilgisini doğrular.",
-        "text": "Miletli Thales: Statik elektriğin keşfi."
-      },
-      {
-        "isCorrect": false,
-        "rationale": "Metin, 'Alessandro Volta elektriğin anlaşılmasını ilerleterek elektrik pili gibi pratik kullanımlara yol açtı' bilgisini doğrular.",
-        "text": "Alessandro Volta: Elektrik pilinin icadı."
-      },
-      {
-        "isCorrect": false,
-        "rationale": "Metin, 'Benjamin Franklin elektriğin anlaşılmasını ilerleterek... yıldırım savarları gibi pratik kullanımlara yol açtı' bilgisini doğrular.",
-        "text": "Benjamin Franklin: Yıldırım savar (paratoner) geliştirilmesi."
+        "rationale": "Seri devrede bileşenler uca bağlıdır ve akım sıralı akar. Bu durumda bir lambanın arızalanması, tüm devrenin açık devre olmasına ve diğer lambaların da sönmesine neden olur.",
+        "text": "Seri devre; tüm bileşenler uca eklenir, böylece akım tüm bileşenlerden sıralı olarak akar."
       },
       {
         "isCorrect": true,
-        "rationale": "Metin, 'Thomas Edison ve Nikola Tesla sırasıyla ışık ampulünü icat etti ve alternatif akım (AC) sistemini geliştirdi' der. Ampulü Edison icat etmiştir, Tesla AC sistemini geliştirmiştir.",
-        "text": "Nikola Tesla: İlk elektrik ampulünün icadı."
+        "rationale": "Metin, paralel devrelerde 'akımın birden fazla yoldan akmasına izin verildiğini' belirtir. Bu, bir bileşenin arızalanması durumunda diğerlerinin çalışmaya devam etmesini sağlayan özelliktir.",
+        "text": "Paralel devre; bileşenler paralel bağlanır, akımın birden fazla yoldan akmasına izin verir."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Metinde 'Hibrid devre' kavramından bahsedilmemektedir.",
+        "text": "Hibrid devre; hem seri hem de paralel özellikleri birleştirir."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Bu, bir devrenin genel tanımıdır ve tüm lambaların bağımsız çalışması veya birinin arızalanması durumunda diğerlerinin etkilenmemesi özelliğini açıklamaz. Hem seri hem de paralel devreler 'kapalı devre' olabilir.",
+        "text": "Kapalı devre; akımın bir güç kaynağından başlayıp geri dönmesini sağlayan bir yoldur."
       }
     ],
-    "question": "Elektriğin keşfi ve gelişimine katkıda bulunan kişilerle ilgili aşağıdaki eşleşmelerden hangisi metne göre doğru değildir?"
+    "question": "Bir evdeki tüm lambaların aynı anda yanmasını veya sönmesini sağlayan ve bir lambanın arızalanması durumunda diğerlerinin çalışmaya devam etmesine izin veren devre tipinin metindeki tanımı ve temel özelliği nedir?"
   },
   {
     "answerOptions": [
       {
         "isCorrect": false,
-        "rationale": "Bu, paralel devrenin bir özelliğidir; seri devrede bir bileşenin arızalanması tüm devreyi keser.",
-        "text": "Bu bir paralel devredir ve bir bileşenin arızalanması tüm devreyi etkilemez."
+        "rationale": "AC'yi DC'ye dönüştürme yeteneği öncelikli olarak diyotların işlevidir, transistörlerin değil.",
+        "text": "AC'yi DC'ye dönüştürme yeteneği sayesinde güç kaynaklarında yaygın olarak kullanılması."
       },
       {
         "isCorrect": true,
-        "rationale": "Metin, 'Seri Devre: Bileşenler uç uca bağlanır, bu nedenle akım tüm bileşenlerden sırayla akar' der. Bu yapı, bir bileşen arızalandığında tüm devrenin açık devre haline gelmesine neden olur.",
-        "text": "Bu bir seri devredir ve bir bileşenin arızalanması tüm devrede akım akışını kesintiye uğratır."
+        "rationale": "Metin, transistörün 'elektronik sinyalleri yükseltmek veya anahtarlamak için kullanılan bir yarı iletken cihaz' olduğunu ve 'dijital mantık devrelerinin, amplifikatörlerin ve mikroişlemcilerin yapı taşları' olduğunu açıkça belirtir. Bu, modern elektronikteki merkezi rolünü açıklar.",
+        "text": "Elektronik sinyalleri yükseltme veya anahtarlama yeteneğiyle dijital mantık devreleri ve mikroişlemcilerin temelini oluşturması."
       },
       {
         "isCorrect": false,
-        "rationale": "Karma devrelerden bahsedilmemektedir. Ayrıca bir devredeki bileşenlerin bağlanma şekli voltajı doğrudan artırmaz.",
-        "text": "Bu bir karma devredir ve güç kaynağının çıkış voltajını artırır."
+        "rationale": "Bu özellik, entegre devrelerin (IC'lerin) temel özelliğidir; transistörler IC'lerin içinde yer alan bileşenlerdir.",
+        "text": "Çok sayıda bileşenin tek bir yonga üzerinde birleştirilmesine olanak sağlaması."
       },
       {
         "isCorrect": false,
-        "rationale": "Bu bir kapalı devrenin tanımı değildir. Seri devrede aynı akım tüm bileşenlerden geçer, farklı miktarda akım geçmez.",
-        "text": "Bu bir kapalı devredir ve her bileşenin üzerinden farklı miktarda akım geçer."
+        "rationale": "Metinde transistörlerin bu spesifik yeteneğinden bahsedilmemektedir. Ana işlevleri yükseltme ve anahtarlamadır.",
+        "text": "Sinyallerdeki gürültüyü filtreleyerek analog devrelerin performansını iyileştirmesi."
       }
     ],
-    "question": "Bir devredeki tüm bileşenlerin akımın sırayla içlerinden akmasını sağlamak için uç uca bağlandığı bir durum göz önüne alındığında, bu tür bir devrenin temel özelliği ve potansiyel bir dezavantajı ile ilgili aşağıdakilerden hangisi doğrudur?"
+    "question": "Metne göre, transistörün modern elektronik cihazlardaki 'en önemli' bileşen olarak kabul edilmesinin temel nedeni nedir?"
   },
   {
     "answerOptions": [
       {
         "isCorrect": false,
-        "rationale": "Direnç, elektron akışına karşı bir 'muhalefet'tir; desteklemez. Bakır gibi metallerin direnci düşüktür.",
-        "text": "Direnç, elektron akışını destekleyen bir özelliktir ve bakır gibi metaller yüksek dirence sahiptir."
+        "rationale": "Analog devreler sürekli sinyallerle çalıştığı için belirli voltaj seviyeleriyle sınırlı değildir; aksine, voltajın herhangi bir değerini temsil edebilirler.",
+        "text": "Sürekli sinyallerle çalıştıkları için yalnızca belirli voltaj seviyelerini işleyebilmeleri."
       },
       {
         "isCorrect": false,
-        "rationale": "Yüksek dirence sahip malzemeler (kauçuk, ahşap) mükemmel iletken değil, yalıtkandır.",
-        "text": "Kauçuk ve ahşap gibi malzemelerin yüksek dirence sahip olması onları mükemmel iletken yapar."
+        "rationale": "Metinde analog ve dijital devreler arasındaki güç tüketimi farkına dair doğrudan bir bilgi bulunmamaktadır.",
+        "text": "Güç tüketimlerinin dijital devrelere göre her zaman daha yüksek olması."
       },
       {
         "isCorrect": true,
-        "rationale": "Metin, 'İletkenler: Elektriğin kolayca akmasına izin veren malzemelerdir' ve 'Direnç: Bir iletken içindeki elektron akışına karşı muhalefet' der. Dolayısıyla kolay akış, düşük dirence işaret eder.",
-        "text": "İletkenler elektriğin kolayca akmasına izin veren malzemelerdir, bu da düşük dirence sahip oldukları anlamına gelir."
+        "rationale": "Metinde 'Ancak, analog sinyaller istenmeyen sinyaller olan gürültüden kolayca etkilenebilir' ifadesiyle bu zayıflık açıkça belirtilmiştir. Dijital devreler, ayrık sinyaller sayesinde gürültüye karşı daha dayanıklıdır.",
+        "text": "Gürültüden (istenmeyen sinyallerden) kolayca etkilenmeleri, bu durumun sinyal kalitesini düşürmesi."
       },
       {
         "isCorrect": false,
-        "rationale": "Yalıtkanlar elektriğin akışına direnç gösterir, ancak metinde yüksek voltaj altında iletken hale geldiklerine dair bir bilgi bulunmamaktadır.",
-        "text": "Yalıtkanlar elektriğin akışına direnç gösteren malzemelerdir, ancak yüksek voltaj altında iletken hale gelirler."
+        "rationale": "Bu şık, dijital devrelerin bir özelliğidir, analog devrelerin bir zayıflığı değildir. Analog devreler, gerçek dünya verilerini doğrudan temsil edebilir.",
+        "text": "Sadece 0 ve 1 gibi ayrık değerlerle çalışarak gerçek dünya verilerini doğrudan temsil edememeleri."
       }
     ],
-    "question": "Direnç kavramı ve iletken/yalıtkan malzemelerle ilişkisi hakkında aşağıdaki ifadelerden hangisi metne göre en doğru bilgiyi vermektedir?"
+    "question": "Analog devrelerin metinde belirtilen temel zayıflığı nedir ve bu durum dijital devrelere kıyasla neden önemli bir fark yaratır?"
   },
   {
     "answerOptions": [
       {
         "isCorrect": false,
-        "rationale": "Bu, transistörlerin temel işlevidir, diyotların değil.",
-        "text": "Elektrik sinyallerini yükseltmek veya anahtarlamak için kullanılır ve dijital mantık devrelerinin yapı taşıdır."
+        "rationale": "Transistörler bağlantı noktaları değildir; IC'leri güç kaynağına bağlamak için kullanılanlar pinlerdir (leads).",
+        "text": "Transistörler, IC'leri bir güç kaynağına bağlamak için kullanılan bağlantı noktalarıdır."
       },
       {
         "isCorrect": true,
-        "rationale": "Metin, 'Bir diyot, akımın yalnızca tek yönde akmasına izin veren bir yarı iletken cihazdır. Bu özellik, diyotları alternatif akımı (AC) doğru akıma (DC) dönüştürmek için temel kılar' der.",
-        "text": "Akımı sadece tek yönde akıtarak Alternatif Akımı (AC) Doğru Akıma (DC) dönüştürmede esastır."
+        "rationale": "Metin, 'Entegre devreler, çok sayıda elektronik bileşenin (transistörler, diyotlar, dirençler vb.) küçük bir yarı iletken malzeme yongası üzerine gömülmesiyle oluşan bir koleksiyondur' ve 'milyarlarca transistör içeren karmaşık mikroişlemcilere kadar değişebilir' ifadeleriyle bu ilişkiyi ve rolü açıkça ortaya koymaktadır.",
+        "text": "IC'ler, milyarlarca transistör de dahil olmak üzere çok sayıda elektronik bileşenin tek bir yarı iletken çip üzerine entegre edilmesiyle oluşturulur ve böylece karmaşık işlevleri kompakt bir yapıda yerine getirir."
       },
       {
         "isCorrect": false,
-        "rationale": "Bu, entegre devrelerin (IC'ler) tanımıdır.",
-        "text": "Birden fazla elektronik bileşeni tek bir yonga üzerinde birleştirerek karmaşık devreler oluşturur."
+        "rationale": "Transistörler hem yükseltme hem de anahtarlama yapar. IC'ler ise yalnızca anahtarlama değil, çok daha karmaşık işlevleri yerine getirebilir.",
+        "text": "Transistörler sadece sinyal yükseltmek için kullanılırken, IC'ler sadece sinyal anahtarlaması yapar."
       },
       {
         "isCorrect": false,
-        "rationale": "Bu, genel olarak yarı iletkenlerin bir özelliğidir, ancak diyotun spesifik işlevini tanımlamaz ve işlemcilerde 'çoğunlukla' bulunduğuna dair bir bilgi yoktur.",
-        "text": "Yarı iletken malzeme olarak, elektrik iletkenliğini belirli koşullar altında kontrol etmeye olanak tanır ve çoğunlukla işlemcilerde bulunur."
+        "rationale": "Akımın tek yönde akmasını sağlayan cihazlar diyotlardır, IC'ler değil.",
+        "text": "IC'ler, transistörlerin aksine, akımın sadece tek yönde akmasını sağlayan cihazlardır."
       }
     ],
-    "question": "Bir diyotun temel işlevi ve modern elektronik uygulamalarındaki en önemli katkılarından biri aşağıdakilerden hangisidir?"
+    "question": "Entegre devreler (IC'ler) ve transistörler arasındaki ilişkiyi ve IC'lerin modern elektronikteki rolünü metne göre en doğru şekilde açıklayan ifade hangisidir?"
   },
   {
     "answerOptions": [
       {
         "isCorrect": false,
-        "rationale": "Bu, diyotların temel işlevidir, transistörlerin değil.",
-        "text": "Sadece akımı tek yönde iletmelerini sağlayan özellikleriyle güç kaynaklarında kullanılırlar."
+        "rationale": "Yarı iletkenler elektriği tamamen bloke etmez; belirli koşullar altında iletebilirler. Tamamen bloke etmek yalıtkanların özelliğidir.",
+        "text": "Elektriği tamamen bloke ederek güvenlik sağlamaları."
       },
       {
         "isCorrect": true,
-        "rationale": "Metin, 'Transistör, elektronik sinyalleri yükseltmek veya anahtarlamak için kullanılan bir yarı iletken cihazdır... Dijital mantık devrelerinin, amplifikatörlerin ve mikroişlemcilerin yapı taşlarıdır' der.",
-        "text": "Elektrik sinyallerini yükseltme veya anahtarlama yetenekleri sayesinde dijital mantık devrelerinin ve mikroişlemcilerin yapı taşlarıdır."
+        "rationale": "Metin, yarı iletkenlerin 'iletkenliği yalıtkanlar ve iletkenler arasında olan' malzemeler olduğunu ve 'belirli koşullar altında elektrik iletecek şekilde kontrol edilebildiğini' belirtir. Bu kontrol edilebilir iletkenlik, onları modern elektronik bileşenlerin temelini oluşturur.",
+        "text": "İletkenliklerinin, yalıtkanlar ve iletkenler arasında olması ve belirli koşullar altında elektrik iletecek şekilde kontrol edilebilmeleri."
       },
       {
         "isCorrect": false,
-        "rationale": "Bu, entegre devrelerin (IC'ler) tanımıdır, transistörler IC'lerin içinde bulunurlar ancak IC'leri oluşturmazlar.",
-        "text": "Farklı elektronik bileşenleri bir araya getirerek karmaşık entegre devreler oluşturmalarını sağlarlar."
+        "rationale": "Yarı iletkenler, AC'yi DC'ye dönüştüren diyotlar gibi önemli bileşenlerin temelidir, bu da onların her iki akım tipiyle de ilişkili olduğunu gösterir.",
+        "text": "Sadece doğru akım (DC) ile çalışabilmeleri ve alternatif akımı (AC) reddetmeleri."
       },
       {
         "isCorrect": false,
-        "rationale": "AC'yi DC'ye dönüştürme diyotun işlevidir. Akım akışına direnç gösterme bir malzemenin genel özelliğidir, transistörün ana işlevi değildir.",
-        "text": "AC'yi DC'ye dönüştürme ve akım akışına direnç gösterme yetenekleriyle bilinirler."
+        "rationale": "LED'ler (Light-Emitting Diodes) yarı iletkenlerden yapılmıştır, ancak bu, yarı iletkenlerin 'modern elektronik bileşenlerin temeli' olmasının tek veya ana nedeni değildir. Transistörler ve IC'ler gibi diğer bileşenlerin de temelidirler.",
+        "text": "Yalnızca ışık yayarak (LED gibi) görüntüleme teknolojilerinde kullanılmaları."
       }
     ],
-    "question": "Metne göre, transistörler modern elektronik için neden bu kadar kritik bir bileşendir ve temel işlevleri nelerdir?"
+    "question": "Yarı iletkenlerin, metinde belirtildiği gibi 'modern elektronik bileşenlerin temelini oluşturması' ifadesiyle kastedilen ana özelliği nedir ve bu, elektronik cihazların işleyişi için neden hayati öneme sahiptir?"
   },
   {
     "answerOptions": [
       {
         "isCorrect": false,
-        "rationale": "Tam tersi: Analog sürekli, dijital kesikli sinyallerle ilgilenir.",
-        "text": "Analog devreler kesikli sinyallerle ilgilenirken, dijital devreler sürekli sinyallerle ilgilenir."
-      },
-      {
-        "isCorrect": false,
-        "rationale": "Tam tersi: Analog gerçek dünya verilerini temsil ederken, dijital ikili 0 ve 1'lerle bilgi işler.",
-        "text": "Dijital devreler ses ve sıcaklık gibi gerçek dünya verilerini temsil ederken, analog devreler ikili 0 ve 1'lerle bilgi işler."
+        "rationale": "P = V × I formülüne göre, aynı voltajda daha yüksek akım veya aynı akımda daha yüksek voltaj daha yüksek güç anlamına gelir. Bu da genellikle daha fazla enerji tüketimi demektir, daha az değil.",
+        "text": "Cihazın daha az enerji tüketerek daha uzun süre çalışması."
       },
       {
         "isCorrect": true,
-        "rationale": "Metin, 'Analog devreler sürekli sinyallerle ilgilenir... Ancak analog sinyaller gürültüden kolayca etkilenebilir' ve 'Dijital devreler ise kesikli sinyallerle, genellikle ikili 0'lar ve 1'ler olarak temsil edilen sinyallerle ilgilenir' der.",
-        "text": "Analog devreler sürekli sinyallerle ilgilenir ve gürültüden kolayca etkilenebilirken, dijital devreler ikili formda bilgi işler."
+        "rationale": "Metin açıkça 'Güç ne kadar yüksek olursa, zaman içinde o kadar fazla enerji kullanılır' ifadesini kullanır. Bu, gücün enerjinin tüketim veya üretim hızı olduğunu belirtir.",
+        "text": "Cihazın belirli bir sürede daha fazla elektrik enerjisi tüketmesi veya üretmesi."
       },
       {
         "isCorrect": false,
-        "rationale": "Dijital devreler modern hesaplamanın omurgasını oluştururken, metinde analog devrelerin karmaşıklığı hakkında doğrudan bir karşılaştırma yoktur.",
-        "text": "Hem analog hem de dijital devreler modern hesaplamanın omurgasını oluşturur, ancak analog devreler daha az karmaşıktır."
+        "rationale": "Yüksek güç, genellikle daha fazla ısı üretimi ile ilişkilidir (örneğin, P = I²R). Düşük direnç, aynı voltajda daha yüksek akım ve dolayısıyla daha yüksek güç anlamına gelebilir.",
+        "text": "Cihazın daha düşük dirençle çalışması ve dolayısıyla daha az ısı üretmesi."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Güç, elektronların hareket hızıyla doğrudan ilişkili değildir; daha ziyade, birim zamanda harcanan veya üretilen enerji miktarıyla ilgilidir.",
+        "text": "Cihazın elektronları daha yavaş hareket ettirmesi."
       }
     ],
-    "question": "Analog ve dijital devreler arasındaki temel farklar ve analog devrelerin belirtilen bir dezavantajı ile ilgili aşağıdakilerden hangisi doğrudur?"
-  },
-  {
-    "answerOptions": [
-      {
-        "isCorrect": false,
-        "rationale": "Bu, elektrik sistemlerinin topraklanmasının amacıdır, sigorta veya devre kesicinin değil.",
-        "text": "Elektrik çarpmasını önlemek için elektrik sistemlerini topraklamak."
-      },
-      {
-        "isCorrect": false,
-        "rationale": "Bu, yalıtkan malzemelerin ve doğru kablolamanın amacıdır, sigorta veya devre kesicinin değil.",
-        "text": "İstenmeyen akımın kaçmasını önlemek için yalıtkan malzemelerle telleri kaplamak."
-      },
-      {
-        "isCorrect": true,
-        "rationale": "Metin, 'aşırı yüklenmeleri ve yangınları önlemek için sigortaların veya devre kesicilerin takılması' gerektiğini açıkça belirtir.",
-        "text": "Aşırı yüklenmeleri ve yangınları önlemek."
-      },
-      {
-        "isCorrect": false,
-        "rationale": "Neme maruz kalmayı önlemek bir güvenlik önlemidir, ancak sigorta veya devre kesicinin doğrudan amacı değildir ve iletkenliği artırmakla ilgili değildir.",
-        "text": "Neme maruz kalmayı önleyerek iletkenliği artırmak."
-      }
-    ],
-    "question": "Metinde belirtilen elektrik güvenliği önlemleri arasında, sigortaların veya devre kesicilerin kurulumunun temel amacı aşağıdakilerden hangisidir?"
-  },
-  {
-    "answerOptions": [
-      {
-        "isCorrect": false,
-        "rationale": "Metin, ADAS'ın 'ağır ölçüde sensörlere ve kameralara dayandığını' ve bunların 'hepsinin elektronik tarafından desteklendiğini' belirtir, mekanik sistemlere dayandığını değil.",
-        "text": "ADAS, temel olarak mekanik sistemlere dayanır ve elektronik bileşenler nadiren kullanılır."
-      },
-      {
-        "isCorrect": false,
-        "rationale": "Metin, ADAS'ın 'sensörlere ve kameralara ağır ölçüde dayandığını' açıkça belirtir, yani güvenlik sensörleri anahtar bileşenlerdir.",
-        "text": "ADAS, sadece eğlence sistemleri ve navigasyon sistemleri gibi elektroniklerle ilgilenir, güvenlik sensörleriyle ilgilenmez."
-      },
-      {
-        "isCorrect": true,
-        "rationale": "Metin, 'Gelişmiş Sürücü Destek Sistemleri (ADAS) büyük ölçüde sensörlere ve kameralara dayanır ve bunların hepsi elektronik tarafından desteklenir' bilgisini açıkça vermektedir.",
-        "text": "ADAS, büyük ölçüde sensörlere ve kameralara dayanır ve bunların hepsi elektronik tarafından desteklenir."
-      },
-      {
-        "isCorrect": false,
-        "rationale": "Metin, uzun mesafeli veri iletiminin verimliliği için AC'nin kullanıldığını belirtir, ancak ADAS'ın özel olarak DC ile çalıştığını ve bunun uzun mesafeli veri iletimi için verimli olduğunu söylemez. Genellikle elektronik cihazlar dahili olarak DC kullanır.",
-        "text": "ADAS, çoğunlukla doğrudan akım (DC) ile çalışır ve bu da uzun mesafeli veri iletimi için verimli kılar."
-      }
-    ],
-    "question": "Elektronik uygulamaları arasında Otomobiller bölümünde bahsedilen Gelişmiş Sürücü Destek Sistemleri (ADAS) hakkında aşağıdaki ifadelerden hangisi doğrudur?"
+    "question": "Bir devredeki voltaj (V) ve akım (I) değerleri bilindiğinde, metinde belirtilen güç (P) formülüne (P = V × I) göre, bir cihazın yüksek güce sahip olmasının temel anlamı nedir?"
   }
 ]
