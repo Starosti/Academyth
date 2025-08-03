@@ -80,6 +80,10 @@ https://trello.com/b/esRn5hb3
 
 </details>
 
+# Ürün Demo Videosu
+
+[![Video](https://img.youtube.com/vi/xt2XXp_SG0s/0.jpg)](https://www.youtube.com/watch?v=xt2XXp_SG0s)
+
 <details>
   <summary><h1>Sprint 1</h1></summary>
 
