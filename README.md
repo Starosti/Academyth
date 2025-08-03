@@ -29,8 +29,7 @@ Temel Özellikler:
 
 # İş Modeli Kanvası
 
-![17518221905107755127966473279576](https://github.com/user-attachments/assets/bcf8af0b-6833-4ac5-87d5-111509113b0e)
-
+![İş Modeli Kanvası](BusinessModelCanvas.png)
 
 # Ürün Özellikleri
 **Çalışma Materyali Yükleme**
