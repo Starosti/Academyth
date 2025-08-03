@@ -391,26 +391,12 @@ Sprint-2 için belirlenen 450 puanlık hedefe ulaşılmıştır. Bu, takımın s
 <details>
   <summary><h1>Sprint 3</h1></summary>
 
-  <!-- Küçük açılır başlıklar -->
-
-
-
-  <details>
-    <summary><h3>App Screenshots</h3></summary>
-
-
-
-
-  </details>
-
   
 
   <details>
     <summary><h3>Project Management</h3></summary>
 
-
-<img width="1362" height="504" alt="image" src="https://github.com/user-attachments/assets/bc06b67c-3856-49e5-8977-99ed48f6bab2" />
-
+<img width="1869" height="1000" alt="Screenshot 2025-08-03 at 18-30-18 Grup-158 Trello" src="https://github.com/user-attachments/assets/089ca247-1bc7-4087-aa0d-2336bbb953f1" />
 
   </details>
 
